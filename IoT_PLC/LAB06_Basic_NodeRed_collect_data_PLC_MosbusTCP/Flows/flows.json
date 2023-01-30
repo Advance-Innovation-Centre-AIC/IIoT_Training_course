@@ -1,0 +1,5684 @@
+[
+    {
+        "id": "1d5f36e108bd4040",
+        "type": "tab",
+        "label": "Basic_MQTT_Test",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b81d2349bb607932",
+        "type": "tab",
+        "label": "Example_MQTT",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "25bb9975d0b163ad",
+        "type": "tab",
+        "label": "Basic_read_modbus_TCP/IP",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4596759535c51bab",
+        "type": "tab",
+        "label": "[3-1]_Example: functtion node",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "5d86b424416fd567",
+        "type": "tab",
+        "label": "[3-2]_Example: timestamp",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c943e0748068fa22",
+        "type": "tab",
+        "label": "[3-3]_Basic_Datalogger",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e7b8a8895a1a5a77",
+        "type": "tab",
+        "label": "[3-4] Basic_ui_text_node",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a6c59c2cfd2871a8",
+        "type": "tab",
+        "label": "[3-5] Basic_ui_chart_node",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6bb9d53d9bdf4572",
+        "type": "tab",
+        "label": "Basic_write_csvfile",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "38f773bdcb51d6bd",
+        "type": "tab",
+        "label": "Basic_SQLite",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7cdb0fb6243e6644",
+        "type": "tab",
+        "label": "Basic_SaveDataPLC_Sqlite",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a1cdce4e0d8623d3",
+        "type": "tab",
+        "label": "Ex-AutoLogger",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "14b9e960a36d6d86",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8ca932bf8abd606f",
+        "type": "tab",
+        "label": "Read_modbus_muti_fc",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0e0e84e3fc6f275e",
+        "type": "tab",
+        "label": "read_PLC_TCP",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "08f5ef9feb3c1462",
+        "type": "tab",
+        "label": "readPLC_to_savefile",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "79f345073329a474",
+        "type": "tab",
+        "label": "readPLC_to_Database",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "27f25c95.8feb34",
+        "type": "tab",
+        "label": "Example_flow",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "4abe8ecf95d58e7b",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1966cee03176d826",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8a20f52a8f91fbfa",
+        "type": "modbus-client",
+        "name": "read fc",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "127.0.0.1",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "ef251375be98cd91",
+        "type": "ui_group",
+        "name": "Sensor",
+        "tab": "089fa58c1fc28634",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "089fa58c1fc28634",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "947bea168f72ba7b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "2a259bb95fe16cb9",
+        "type": "sqlitedb",
+        "db": "D:/data_logger/test.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "c21726158e252cd6",
+        "type": "modbus-client",
+        "name": "testplc",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.3.250",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "382ecc5ec8901dfc",
+        "type": "ui_tab",
+        "name": "Machine2[PLCfx5uc]",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2190dc66088de0cf",
+        "type": "ui_group",
+        "name": "Analog Sensor Type",
+        "tab": "382ecc5ec8901dfc",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ab71b39ac62e3d3f",
+        "type": "sqlitedb",
+        "db": "/home/pi/db/exampledb.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "7b125521f7aa7f74",
+        "type": "modbus-client",
+        "name": "host-pc",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.3.123",
+        "tcpPort": "5002",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "1c25415d.b8427f",
+        "type": "sqlitedb",
+        "db": "/home/pi/",
+        "mode": "RWC"
+    },
+    {
+        "id": "27c3d951.18a4e6",
+        "type": "ui_group",
+        "name": "dataMachine1",
+        "tab": "c372ea3143084d2c",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": true,
+        "className": ""
+    },
+    {
+        "id": "1e17cd0b.862863",
+        "type": "ui_group",
+        "name": "Machine1",
+        "tab": "c372ea3143084d2c",
+        "order": 1,
+        "disp": true,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "cc8a5829caf74e5b",
+        "type": "ui_group",
+        "name": "Digital Sensor Type",
+        "tab": "382ecc5ec8901dfc",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d3ba93999c4521eb",
+        "type": "ui_tab",
+        "name": "Machine1[PLC_M1_DOBOT]",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "52d475a4c4e2b6e2",
+        "type": "ui_group",
+        "name": "Analog Sensor Type",
+        "tab": "d3ba93999c4521eb",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a3b10e42bc996493",
+        "type": "ui_group",
+        "name": "Digital Sensor Type",
+        "tab": "d3ba93999c4521eb",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c372ea3143084d2c",
+        "type": "ui_tab",
+        "name": "Database[SQLite]",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f055403ce293eeea",
+        "type": "ui_spacer",
+        "z": "79f345073329a474",
+        "name": "spacer",
+        "group": "27c3d951.18a4e6",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "407a01e4.6b637",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.101.245",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "23ac0cb9eb338efc",
+        "type": "ui_switch",
+        "z": "1d5f36e108bd4040",
+        "d": true,
+        "name": "Light",
+        "label": "switch",
+        "tooltip": "",
+        "group": "ef251375be98cd91",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "room/light",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 250,
+        "y": 580,
+        "wires": [
+            [
+                "3533d4c40ac42dbe"
+            ]
+        ]
+    },
+    {
+        "id": "3533d4c40ac42dbe",
+        "type": "mqtt out",
+        "z": "1d5f36e108bd4040",
+        "d": true,
+        "name": "room/light",
+        "topic": "room/light",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "407a01e4.6b637",
+        "x": 420,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "369b6b35a64c08a9",
+        "type": "ui_text",
+        "z": "1d5f36e108bd4040",
+        "d": true,
+        "group": "ef251375be98cd91",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "M5Stack",
+        "label": "Sensor1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 600,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "02aac04cc1cc5e42",
+        "type": "mqtt in",
+        "z": "1d5f36e108bd4040",
+        "d": true,
+        "name": "read",
+        "topic": "M5Stack",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "407a01e4.6b637",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 700,
+        "wires": [
+            [
+                "369b6b35a64c08a9",
+                "b7ccab09be5c84a7"
+            ]
+        ]
+    },
+    {
+        "id": "b7ccab09be5c84a7",
+        "type": "file",
+        "z": "1d5f36e108bd4040",
+        "d": true,
+        "name": "Writefile",
+        "filename": "D:/data_logger/mqtt_m5.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 620,
+        "y": 840,
+        "wires": [
+            [
+                "178c38742bd71be3"
+            ]
+        ]
+    },
+    {
+        "id": "178c38742bd71be3",
+        "type": "csv",
+        "z": "1d5f36e108bd4040",
+        "d": true,
+        "name": "savefile",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "test1,test2",
+        "skip": "0",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": false,
+        "x": 920,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b3d5c9b6b3f81c96",
+        "type": "mqtt in",
+        "z": "1d5f36e108bd4040",
+        "name": "test",
+        "topic": "test",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "407a01e4.6b637",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 310,
+        "y": 120,
+        "wires": [
+            [
+                "2930989453f5a694"
+            ]
+        ]
+    },
+    {
+        "id": "2930989453f5a694",
+        "type": "debug",
+        "z": "1d5f36e108bd4040",
+        "name": "msg",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 510,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "220629f2a3575be8",
+        "type": "ui_text",
+        "z": "1d5f36e108bd4040",
+        "group": "ef251375be98cd91",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "Msg_M5Stack",
+        "label": "Sensor1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 460,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "49f8b851f4088a34",
+        "type": "mqtt in",
+        "z": "1d5f36e108bd4040",
+        "name": "MQTT_Read",
+        "topic": "M5Stack",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "407a01e4.6b637",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 1040,
+        "wires": [
+            [
+                "220629f2a3575be8",
+                "8026b8dd32484294"
+            ]
+        ]
+    },
+    {
+        "id": "8026b8dd32484294",
+        "type": "file",
+        "z": "1d5f36e108bd4040",
+        "name": "Writefile",
+        "filename": "D:/data_logger/mqtt_m5.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 600,
+        "y": 1180,
+        "wires": [
+            [
+                "bd8829ada2c268aa"
+            ]
+        ]
+    },
+    {
+        "id": "bd8829ada2c268aa",
+        "type": "csv",
+        "z": "1d5f36e108bd4040",
+        "name": "savefile",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "test1,test2",
+        "skip": "0",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": false,
+        "x": 900,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "17fb240fdce92f6e",
+        "type": "comment",
+        "z": "1d5f36e108bd4040",
+        "name": "Example: Basic write mqtt data to csvfile",
+        "info": "",
+        "x": 300,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "2c6873d2.992abc",
+        "type": "mqtt out",
+        "z": "b81d2349bb607932",
+        "name": "",
+        "topic": "sensors/livingroom/temp",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "407a01e4.6b637",
+        "x": 450,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "d9beed59.94155",
+        "type": "inject",
+        "z": "b81d2349bb607932",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "22",
+        "payloadType": "num",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "2c6873d2.992abc"
+            ]
+        ]
+    },
+    {
+        "id": "be80048.8f232f8",
+        "type": "mqtt in",
+        "z": "b81d2349bb607932",
+        "name": "",
+        "topic": "sensors/livingroom/temp",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "407a01e4.6b637",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 290,
+        "y": 320,
+        "wires": [
+            [
+                "8640b8ff.f82ff8"
+            ]
+        ]
+    },
+    {
+        "id": "8640b8ff.f82ff8",
+        "type": "debug",
+        "z": "b81d2349bb607932",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 490,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "6136ed5b44acab4f",
+        "type": "modbus-read",
+        "z": "25bb9975d0b163ad",
+        "name": "read-fc1",
+        "topic": "fc1",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "1",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 240,
+        "y": 600,
+        "wires": [
+            [
+                "172359fa890e2c19"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "172359fa890e2c19",
+        "type": "debug",
+        "z": "25bb9975d0b163ad",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 470,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "27130634746fc618",
+        "type": "inject",
+        "z": "4596759535c51bab",
+        "d": true,
+        "name": "timestamp",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 860,
+        "y": 200,
+        "wires": [
+            [
+                "6481204774ec1211"
+            ]
+        ]
+    },
+    {
+        "id": "6481204774ec1211",
+        "type": "function",
+        "z": "4596759535c51bab",
+        "d": true,
+        "name": "Writing msg",
+        "func": "msg.payload = '123';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 200,
+        "wires": [
+            [
+                "43581c690db93225"
+            ]
+        ]
+    },
+    {
+        "id": "43581c690db93225",
+        "type": "debug",
+        "z": "4596759535c51bab",
+        "d": true,
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "8714f8bc1f63306c",
+        "type": "inject",
+        "z": "4596759535c51bab",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 840,
+        "y": 740,
+        "wires": [
+            [
+                "4f9104178d1f34ef"
+            ]
+        ]
+    },
+    {
+        "id": "a67df45fa7b13cbe",
+        "type": "debug",
+        "z": "4596759535c51bab",
+        "name": "Multi-msg_output1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "4f9104178d1f34ef",
+        "type": "function",
+        "z": "4596759535c51bab",
+        "name": "Multiple Messages",
+        "func": "\nvar msg1 = { payload: \"msg1: first out of output 1\" };\nvar msg2 = { payload: \"msg2: second out of output 1\" };\nvar msg3 = { payload: \"msg3: third out of output 1\" };\nvar msg4 = { payload: \"msg4: only message from output 2\" };\n\nreturn [[msg1, msg2, msg3], msg4];\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 740,
+        "wires": [
+            [
+                "a67df45fa7b13cbe"
+            ],
+            [
+                "c0215f35f6422047"
+            ]
+        ]
+    },
+    {
+        "id": "c0215f35f6422047",
+        "type": "debug",
+        "z": "4596759535c51bab",
+        "name": "msg_output2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1270,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "91df85b2202fa855",
+        "type": "comment",
+        "z": "4596759535c51bab",
+        "name": "Example: Writing msg",
+        "info": "",
+        "x": 940,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "483828d2cdd053bd",
+        "type": "comment",
+        "z": "4596759535c51bab",
+        "d": true,
+        "name": "Example: Multiple Messages",
+        "info": "",
+        "x": 920,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "e5bb1e40bf5aedd6",
+        "type": "inject",
+        "z": "4596759535c51bab",
+        "name": "Topic: Banana",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "banana",
+        "x": 870,
+        "y": 500,
+        "wires": [
+            [
+                "ee84c1852e57c6e0"
+            ]
+        ]
+    },
+    {
+        "id": "44f242eaeb8bdc94",
+        "type": "debug",
+        "z": "4596759535c51bab",
+        "name": "msg_output1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "ee84c1852e57c6e0",
+        "type": "function",
+        "z": "4596759535c51bab",
+        "name": "Multiple Output",
+        "func": "if (msg.topic === \"banana\") {\n    return [null, msg];\n} else {\n    return [msg, null];\n}\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 440,
+        "wires": [
+            [
+                "44f242eaeb8bdc94"
+            ],
+            [
+                "8746f1069f9953d0"
+            ]
+        ]
+    },
+    {
+        "id": "8746f1069f9953d0",
+        "type": "debug",
+        "z": "4596759535c51bab",
+        "name": "msg_output2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "66936259f1a4d974",
+        "type": "comment",
+        "z": "4596759535c51bab",
+        "name": "Example: Multiple Output",
+        "info": "",
+        "x": 930,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "03bd641bb92a7165",
+        "type": "inject",
+        "z": "4596759535c51bab",
+        "name": "Topic: null",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 860,
+        "y": 440,
+        "wires": [
+            [
+                "ee84c1852e57c6e0"
+            ]
+        ]
+    },
+    {
+        "id": "8cd74a7a6c6a6c29",
+        "type": "modbus-read",
+        "z": "4596759535c51bab",
+        "name": "test",
+        "topic": "modbus",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "InputRegister",
+        "adr": "1",
+        "quantity": "2",
+        "rate": "5",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 850,
+        "y": 960,
+        "wires": [
+            [
+                "6060fc9d0d946a2c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b6252b62431a1670",
+        "type": "debug",
+        "z": "4596759535c51bab",
+        "name": "debug modbus",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "6060fc9d0d946a2c",
+        "type": "function",
+        "z": "4596759535c51bab",
+        "name": "function 5",
+        "func": "var values = msg.payload[1]\nmsg.payload = values;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 960,
+        "wires": [
+            [
+                "b6252b62431a1670"
+            ]
+        ]
+    },
+    {
+        "id": "8fe17f8ad7663c4f",
+        "type": "inject",
+        "z": "5d86b424416fd567",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1020,
+        "y": 300,
+        "wires": [
+            [
+                "61f53725a366826d"
+            ]
+        ]
+    },
+    {
+        "id": "61f53725a366826d",
+        "type": "function",
+        "z": "5d86b424416fd567",
+        "name": "YYYY/MM/DD",
+        "func": "var t = new Date();\n\nvar date = t.getFullYear() \n           + \"/\" + (t.getMonth() + 1) \n           + \"/\" + t.getDate();\n          \nmsg.payload = date;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1200,
+        "y": 300,
+        "wires": [
+            [
+                "7ffb517af8c6567f"
+            ]
+        ]
+    },
+    {
+        "id": "7ffb517af8c6567f",
+        "type": "debug",
+        "z": "5d86b424416fd567",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1390,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "3e28e2943c05f898",
+        "type": "inject",
+        "z": "5d86b424416fd567",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1020,
+        "y": 140,
+        "wires": [
+            [
+                "87f9141b1af77568"
+            ]
+        ]
+    },
+    {
+        "id": "87f9141b1af77568",
+        "type": "debug",
+        "z": "5d86b424416fd567",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "bd41f1c4d3710703",
+        "type": "inject",
+        "z": "5d86b424416fd567",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1020,
+        "y": 460,
+        "wires": [
+            [
+                "47a4adcedb023e53"
+            ]
+        ]
+    },
+    {
+        "id": "47a4adcedb023e53",
+        "type": "function",
+        "z": "5d86b424416fd567",
+        "name": "hh:mm:ss",
+        "func": "var t = new Date();\n\nvar time = t.getHours() + \":\" \n         + t.getMinutes() + \":\" \n         + t.getSeconds();\n        \nmsg.payload = time;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1180,
+        "y": 460,
+        "wires": [
+            [
+                "c3b8c4d15bbf3efc"
+            ]
+        ]
+    },
+    {
+        "id": "c3b8c4d15bbf3efc",
+        "type": "debug",
+        "z": "5d86b424416fd567",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1390,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "af89ab656b31e0d0",
+        "type": "comment",
+        "z": "5d86b424416fd567",
+        "d": true,
+        "name": "Example: Format Date ",
+        "info": "",
+        "x": 1040,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "eff491857a477477",
+        "type": "comment",
+        "z": "5d86b424416fd567",
+        "name": "Exampla: Format Time",
+        "info": "",
+        "x": 1040,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "bf8e8e15873a53c5",
+        "type": "inject",
+        "z": "5d86b424416fd567",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1020,
+        "y": 640,
+        "wires": [
+            [
+                "9fdf8f275cb4476b"
+            ]
+        ]
+    },
+    {
+        "id": "9fdf8f275cb4476b",
+        "type": "function",
+        "z": "5d86b424416fd567",
+        "name": "Timestemp, value1,value2",
+        "func": "var t = new Date();\nvar timestemp = t.getFullYear() \n                + \"/\" + (t.getMonth() + 1) \n                + \"/\" + t.getDate()\n                + \",\" + t.getHours() \n                + \":\" + t.getMinutes() \n                + \":\" + t.getSeconds();\n\n\nvar temp = Math.round(Math.random() * 100);\nvar humi = Math.round(Math.random() * 10);\n\n\nvar data =  timestemp \n            // + \",\" + temp \n            // + \",\" + humi       \n            + \",\" + temp \n            + \",\" + humi;\n\nmsg.payload = data;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 640,
+        "wires": [
+            [
+                "27683b10f2e2fbfb"
+            ]
+        ]
+    },
+    {
+        "id": "27683b10f2e2fbfb",
+        "type": "debug",
+        "z": "5d86b424416fd567",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1430,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "f66f30d8aca2bc3e",
+        "type": "comment",
+        "z": "5d86b424416fd567",
+        "name": "Example:Timestamp with msg",
+        "info": "",
+        "x": 1060,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "e04c2faecffa7886",
+        "type": "function",
+        "z": "c943e0748068fa22",
+        "name": " timestamp with random value ",
+        "func": "var t = new Date();\nvar time = t.getFullYear()\n    + \"/\" + (t.getMonth() + 1)\n    + \"/\" + t.getDate();\n    \nvar date =  t.getHours()\n    + \":\" + t.getMinutes()\n    + \":\" + t.getSeconds();\n\n\nvar temp = Math.round(Math.random() * 100);\nvar humi = Math.round(Math.random() * 10);\n\n\nvar data =  date    \n    + \",\" + time\n    + \",\" + temp\n    + \",\" + humi;\n\nmsg.payload = data;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 320,
+        "wires": [
+            [
+                "d800489f5c2527a7",
+                "83e92a62c3316189"
+            ]
+        ]
+    },
+    {
+        "id": "d800489f5c2527a7",
+        "type": "debug",
+        "z": "c943e0748068fa22",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1170,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "8c2aefa78c18dd73",
+        "type": "csv",
+        "z": "c943e0748068fa22",
+        "name": "savefile",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "yyyy/mm/dd,HH:MM:SS,S1,S2",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 1440,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "83e92a62c3316189",
+        "type": "file",
+        "z": "c943e0748068fa22",
+        "name": "",
+        "filename": "D:/data_logger/datatest.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1220,
+        "y": 460,
+        "wires": [
+            [
+                "8c2aefa78c18dd73"
+            ]
+        ]
+    },
+    {
+        "id": "eae2d65c4e467a03",
+        "type": "inject",
+        "z": "c943e0748068fa22",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "123",
+        "payload": "",
+        "payloadType": "date",
+        "x": 660,
+        "y": 320,
+        "wires": [
+            [
+                "e04c2faecffa7886"
+            ]
+        ]
+    },
+    {
+        "id": "f556ca00092e0b51",
+        "type": "file",
+        "z": "c943e0748068fa22",
+        "d": true,
+        "name": "D:/data_logger/test101.csv",
+        "filename": "D:/data_logger/logmodbus.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 980,
+        "y": 1080,
+        "wires": [
+            [
+                "ce85bbf1630ae67b"
+            ]
+        ]
+    },
+    {
+        "id": "5da479ca2c83425c",
+        "type": "modbus-read",
+        "z": "c943e0748068fa22",
+        "d": true,
+        "name": "Read-fc04",
+        "topic": "fc4",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "InputRegister",
+        "adr": "1",
+        "quantity": "2",
+        "rate": "10",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 660,
+        "y": 1120,
+        "wires": [
+            [
+                "f556ca00092e0b51",
+                "b84fc6e4b99ba59e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ce85bbf1630ae67b",
+        "type": "csv",
+        "z": "c943e0748068fa22",
+        "d": true,
+        "name": "savefile",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": false,
+        "x": 1320,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b84fc6e4b99ba59e",
+        "type": "debug",
+        "z": "c943e0748068fa22",
+        "d": true,
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "bfbcba2f453e683a",
+        "type": "file",
+        "z": "c943e0748068fa22",
+        "name": "Writefile",
+        "filename": "D:/data_logger/tt.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 940,
+        "y": 120,
+        "wires": [
+            [
+                "28691e0ae695d560"
+            ]
+        ]
+    },
+    {
+        "id": "28691e0ae695d560",
+        "type": "csv",
+        "z": "c943e0748068fa22",
+        "name": "savefile",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "test1,test2",
+        "skip": "0",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": false,
+        "x": 1240,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ac65de7a9b67498f",
+        "type": "inject",
+        "z": "c943e0748068fa22",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "test",
+        "payload": "121",
+        "payloadType": "str",
+        "x": 720,
+        "y": 120,
+        "wires": [
+            [
+                "bfbcba2f453e683a"
+            ]
+        ]
+    },
+    {
+        "id": "452cae18799ff7d6",
+        "type": "comment",
+        "z": "c943e0748068fa22",
+        "name": "Example: Basic write modbus data to csvfile",
+        "info": "",
+        "x": 690,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "53294b56a6cb2131",
+        "type": "comment",
+        "z": "c943e0748068fa22",
+        "name": "Example: Basic write random number data to csvfile",
+        "info": "",
+        "x": 710,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "98a10d5fd32206a5",
+        "type": "comment",
+        "z": "c943e0748068fa22",
+        "d": true,
+        "name": "Example: Basic write csvfile",
+        "info": "",
+        "x": 640,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "a048885f015d997e",
+        "type": "function",
+        "z": "c943e0748068fa22",
+        "name": " timestamp with random value ",
+        "func": "var t = new Date();\nvar time = t.getFullYear()\n    + \"/\" + (t.getMonth() + 1)\n    + \"/\" + t.getDate();\n    \nvar date =  t.getHours()\n    + \":\" + t.getMinutes()\n    + \":\" + t.getSeconds();\n\n\n// var temp = Math.round(Math.random() * 100);\n// var humi = Math.round(Math.random() * 10);\nvar temp = msg.payload[0];\nvar humi = msg.payload[1];\n\nvar data =  date    \n    + \",\" + time\n    + \",\" + temp\n    + \",\" + humi;\n\nmsg.payload = data;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 1300,
+        "wires": [
+            [
+                "7d5ee3ce5720c717",
+                "6d99bc09174ce28c"
+            ]
+        ]
+    },
+    {
+        "id": "7d5ee3ce5720c717",
+        "type": "debug",
+        "z": "c943e0748068fa22",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "1a30c7576b160ebc",
+        "type": "csv",
+        "z": "c943e0748068fa22",
+        "name": "savefile",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "yyyy/mm/dd,HH:MM:SS,S1,S2",
+        "skip": "1",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 1460,
+        "y": 1440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d99bc09174ce28c",
+        "type": "file",
+        "z": "c943e0748068fa22",
+        "name": "",
+        "filename": "D:/data_logger/datalog.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1240,
+        "y": 1440,
+        "wires": [
+            [
+                "1a30c7576b160ebc"
+            ]
+        ]
+    },
+    {
+        "id": "38506ab4af604b5a",
+        "type": "modbus-read",
+        "z": "c943e0748068fa22",
+        "name": "Read-fc04",
+        "topic": "fc4",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "InputRegister",
+        "adr": "1",
+        "quantity": "2",
+        "rate": "10",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 640,
+        "y": 1300,
+        "wires": [
+            [
+                "a048885f015d997e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "60ce174545e33d31",
+        "type": "modbus-read",
+        "z": "e7b8a8895a1a5a77",
+        "name": "read-fc1",
+        "topic": "fc1",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "InputRegister",
+        "adr": "1",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 240,
+        "y": 340,
+        "wires": [
+            [
+                "68b9849f18833c02",
+                "29fb0f0190ab81e7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "68b9849f18833c02",
+        "type": "debug",
+        "z": "e7b8a8895a1a5a77",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "29fb0f0190ab81e7",
+        "type": "function",
+        "z": "e7b8a8895a1a5a77",
+        "name": "function 2",
+        "func": "var msg1 = { payload: msg.payload[0] };\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "9b961df67f6ce1c2"
+            ]
+        ]
+    },
+    {
+        "id": "9b961df67f6ce1c2",
+        "type": "ui_text",
+        "z": "e7b8a8895a1a5a77",
+        "group": "ef251375be98cd91",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sensor1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 660,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "00130622fb633a0b",
+        "type": "modbus-read",
+        "z": "a6c59c2cfd2871a8",
+        "name": "Read-fc04",
+        "topic": "fc4",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "InputRegister",
+        "adr": "1",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 280,
+        "y": 280,
+        "wires": [
+            [
+                "678dfd2115e1db10",
+                "0e720bd109b8604a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "678dfd2115e1db10",
+        "type": "debug",
+        "z": "a6c59c2cfd2871a8",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "0e720bd109b8604a",
+        "type": "function",
+        "z": "a6c59c2cfd2871a8",
+        "name": "function 3",
+        "func": "var msg1 = { payload: msg.payload[0] };\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 160,
+        "wires": [
+            [
+                "d95e9d02353d8143"
+            ]
+        ]
+    },
+    {
+        "id": "d95e9d02353d8143",
+        "type": "ui_chart",
+        "z": "a6c59c2cfd2871a8",
+        "name": "",
+        "group": "ef251375be98cd91",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "1",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 650,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e6a7e6022123ef16",
+        "type": "file",
+        "z": "6bb9d53d9bdf4572",
+        "name": "D:/data_logger/test101.csv",
+        "filename": "D:/data_logger/test101.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 540,
+        "y": 140,
+        "wires": [
+            [
+                "66aa97aa48c9a1fe"
+            ]
+        ]
+    },
+    {
+        "id": "2b270a880c129b7b",
+        "type": "modbus-read",
+        "z": "6bb9d53d9bdf4572",
+        "name": "Read-fc04",
+        "topic": "fc4",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "14",
+        "dataType": "InputRegister",
+        "adr": "1",
+        "quantity": "2",
+        "rate": "10",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 280,
+        "y": 260,
+        "wires": [
+            [
+                "e6a7e6022123ef16",
+                "9bf925de78241e1c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "66aa97aa48c9a1fe",
+        "type": "csv",
+        "z": "6bb9d53d9bdf4572",
+        "name": "test1",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "temp,hum",
+        "skip": "1",
+        "strings": false,
+        "include_empty_strings": "",
+        "include_null_values": false,
+        "x": 750,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9bf925de78241e1c",
+        "type": "debug",
+        "z": "6bb9d53d9bdf4572",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 570,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "77df0db0ffbfbb67",
+        "type": "debug",
+        "z": "38f773bdcb51d6bd",
+        "name": "Debug ",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 630,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "046a698907709a7d",
+        "type": "sqlite",
+        "z": "38f773bdcb51d6bd",
+        "mydb": "2a259bb95fe16cb9",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQLite",
+        "x": 470,
+        "y": 360,
+        "wires": [
+            [
+                "77df0db0ffbfbb67"
+            ]
+        ]
+    },
+    {
+        "id": "ca2e01c23e3c508d",
+        "type": "inject",
+        "z": "38f773bdcb51d6bd",
+        "name": "CREATE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "CREATE TABLE data(id INTEGER PRIMARY KEY AUTOINCREMENT, temperature NUMERIC, humidity NUMERIC, currentdate DATE, currenttime DATETIME, device TEXT)",
+        "payload": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 220,
+        "wires": [
+            [
+                "046a698907709a7d"
+            ]
+        ]
+    },
+    {
+        "id": "a2423ed6029f3c57",
+        "type": "inject",
+        "z": "38f773bdcb51d6bd",
+        "name": "INSERT",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "INSERT INTO data(temperature, humidity, currentdate, currenttime, device) values(22.4, 48, date('now'), time('now'), \"manual\")",
+        "payload": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 280,
+        "wires": [
+            [
+                "046a698907709a7d"
+            ]
+        ]
+    },
+    {
+        "id": "11b9b526e5355926",
+        "type": "inject",
+        "z": "38f773bdcb51d6bd",
+        "name": "SELECT",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT * FROM data",
+        "payload": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 340,
+        "wires": [
+            [
+                "046a698907709a7d"
+            ]
+        ]
+    },
+    {
+        "id": "fe2a8b5514813350",
+        "type": "inject",
+        "z": "38f773bdcb51d6bd",
+        "name": "DELETE",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "DELETE  FROM data",
+        "payload": "",
+        "payloadType": "date",
+        "x": 280,
+        "y": 400,
+        "wires": [
+            [
+                "046a698907709a7d"
+            ]
+        ]
+    },
+    {
+        "id": "620ecce1989d7dcd",
+        "type": "inject",
+        "z": "38f773bdcb51d6bd",
+        "name": "DROP",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "DROP TABLE data",
+        "payload": "",
+        "payloadType": "date",
+        "x": 270,
+        "y": 460,
+        "wires": [
+            [
+                "046a698907709a7d"
+            ]
+        ]
+    },
+    {
+        "id": "1d518d65dd49bdcb",
+        "type": "debug",
+        "z": "7cdb0fb6243e6644",
+        "name": "INSERT Data",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "387e3cc983bb65e6",
+        "type": "sqlite",
+        "z": "7cdb0fb6243e6644",
+        "mydb": "2a259bb95fe16cb9",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQLite",
+        "x": 510,
+        "y": 320,
+        "wires": [
+            [
+                "1d518d65dd49bdcb"
+            ]
+        ]
+    },
+    {
+        "id": "d5a58cfdf54cfa12",
+        "type": "function",
+        "z": "7cdb0fb6243e6644",
+        "name": "function",
+        "func": "var newMsg = {};\n\nvar t = new Date();\n// var date = t.getFullYear() + \"/\" + (t.getMonth() + 1) + \"/\" + t.getDate();\nvar timestamp = t.getHours() + \":\" + t.getMinutes() + \":\" + t.getSeconds();\n\nvar temp = msg.payload[0];\nvar humi = msg.payload[1];\n\n// var temp = Math.round(Math.random() * 100);\n// var humi = Math.round(Math.random() * 100);\n\n\nvar msg = \"(temperature,humidity,currenttime) VALUES (\" + temp + \",\" + humi + \",\\\"\" + timestamp +\"\\\")\";\nvar topic = \"INSERT INTO data\"+ msg;\n\nnewMsg.topic = topic;\nreturn newMsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 440,
+        "wires": [
+            [
+                "387e3cc983bb65e6",
+                "ceb9e71a2c33dadd"
+            ]
+        ]
+    },
+    {
+        "id": "481d66e519a7d1ab",
+        "type": "inject",
+        "z": "7cdb0fb6243e6644",
+        "name": "SELECT",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "SELECT * FROM data",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 140,
+        "wires": [
+            [
+                "012829da3fabe0e9"
+            ]
+        ]
+    },
+    {
+        "id": "012829da3fabe0e9",
+        "type": "sqlite",
+        "z": "7cdb0fb6243e6644",
+        "mydb": "2a259bb95fe16cb9",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SQLite",
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "fef7ae79214e84b5"
+            ]
+        ]
+    },
+    {
+        "id": "fef7ae79214e84b5",
+        "type": "debug",
+        "z": "7cdb0fb6243e6644",
+        "name": "Debug data",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ceb9e71a2c33dadd",
+        "type": "debug",
+        "z": "7cdb0fb6243e6644",
+        "name": "debug fuction",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "1a5e60fafe4a7bd5",
+        "type": "modbus-read",
+        "z": "7cdb0fb6243e6644",
+        "d": true,
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "1",
+        "quantity": "2",
+        "rate": "2",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 170,
+        "y": 580,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "9d4ba0cdf7673fab",
+        "type": "inject",
+        "z": "7cdb0fb6243e6644",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 320,
+        "wires": [
+            [
+                "d5a58cfdf54cfa12"
+            ]
+        ]
+    },
+    {
+        "id": "782b06fb.cc1df8",
+        "type": "comment",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Auto Logger archiving",
+        "info": "Generate file name that are to be archived.\n\nIdea is that this generates a list of file names for let's say between current day-5 days to current day-10 days, so all files that are 5-10 days old will get archived. And this can be executed daily or weekly, and the interval allows some overlap (e.g. the program fails, Node-Red was down, etc.)\n\nInject node should contain a JSON:\n{    \n    \"start\": 20,    \n    \"end\": 10\n}\n\nThis will generate file names D-20 to D-10 days.\nStart should be greather than end!\n",
+        "x": 180,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "f14e2f71.1ad87",
+        "type": "function",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Maplin Filename generator",
+        "func": "let output = [];\nfor (var i=msg.payload.end;i<msg.payload.start;i++) {\n    \n    // calculate the date\n    let now = new Date();\n    now.setTime(now.getTime() - 1000*60*60*24*i);\n    let yyyy = now.getFullYear();\n    let mm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1); // getMonth() is zero-based\n    let dd  = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\n    let hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\n    let mmm  = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\n    let ss  = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n    \n    let newfile = { \"topic\": \"archive\", \"payload\": \"\"};\n    // Generate out file name pattern\n    newfile.fname = \"maplin_\"+ yyyy + mm + dd + \".csv\";\n    // Full filename with path \n    newfile.filename = \"/home/pi/datalog/\"+ newfile.fname;\n    \n    // Shell script only needs the filename without the path\n    newfile.payload = newfile.fname;\n    output.push(newfile);\n\n}\n\nreturn [output];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 160,
+        "wires": [
+            [
+                "5ba61ce5.11d8a4"
+            ]
+        ]
+    },
+    {
+        "id": "b57ab78e.cf1658",
+        "type": "function",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Weather Station Filename generator",
+        "func": "let output = [];\nfor (var i=msg.payload.end;i<msg.payload.start;i++) {\n    \n    // calculate the date\n    let now = new Date();\n    now.setTime(now.getTime() - 1000*60*60*24*i);\n    let yyyy = now.getFullYear();\n    let mm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1); // getMonth() is zero-based\n    let dd  = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\n    let hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\n    let mmm  = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\n    let ss  = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n    \n    let newfile = { \"topic\": \"archive\", \"payload\": \"\"};\n    // Generate out file name pattern\n    newfile.fname = \"weather_sensor_\"+ yyyy + mm + dd + \".csv\";\n    // Full filename with path \n    newfile.filename = \"/home/pi/datalog/\"+ newfile.fname;\n    \n    // Shell script only needs the filename without the path\n    newfile.payload = newfile.fname;\n    output.push(newfile);\n\n}\n\nreturn [output];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 220,
+        "wires": [
+            [
+                "5ba61ce5.11d8a4"
+            ]
+        ]
+    },
+    {
+        "id": "5e47f3b4.7c779c",
+        "type": "inject",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Start",
+        "props": [
+            {
+                "p": "payload",
+                "v": "{\"start\":20,\"end\":10}",
+                "vt": "json"
+            },
+            {
+                "p": "topic",
+                "v": "",
+                "vt": "string"
+            }
+        ],
+        "repeat": "",
+        "crontab": "40 02 * * *",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"start\":20,\"end\":10}",
+        "payloadType": "json",
+        "x": 170,
+        "y": 180,
+        "wires": [
+            [
+                "f14e2f71.1ad87",
+                "b57ab78e.cf1658"
+            ]
+        ]
+    },
+    {
+        "id": "ad87fee.c53d5",
+        "type": "exec",
+        "z": "a1cdce4e0d8623d3",
+        "command": "/home/pi/log_upload.sh",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "File upload",
+        "x": 770,
+        "y": 160,
+        "wires": [
+            [],
+            [],
+            [
+                "5f0f09f4.a09208"
+            ]
+        ]
+    },
+    {
+        "id": "5f0f09f4.a09208",
+        "type": "switch",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Return code",
+        "property": "payload.code",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1050,
+        "y": 260,
+        "wires": [
+            [],
+            [
+                "639dcab5.1028b4"
+            ]
+        ]
+    },
+    {
+        "id": "49210be0.0dbbe4",
+        "type": "exec",
+        "z": "a1cdce4e0d8623d3",
+        "command": "sudo rm ",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "File delete",
+        "x": 1190,
+        "y": 160,
+        "wires": [
+            [],
+            [],
+            [
+                "1fee1de5.695e32"
+            ]
+        ]
+    },
+    {
+        "id": "639dcab5.1028b4",
+        "type": "change",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Get filename",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "filename",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1010,
+        "y": 160,
+        "wires": [
+            [
+                "49210be0.0dbbe4"
+            ]
+        ]
+    },
+    {
+        "id": "1fee1de5.695e32",
+        "type": "switch",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Return code",
+        "property": "payload.code",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 1410,
+        "y": 180,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5ba61ce5.11d8a4",
+        "type": "delay",
+        "z": "a1cdce4e0d8623d3",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 700,
+        "y": 360,
+        "wires": [
+            [
+                "ad87fee.c53d5"
+            ]
+        ]
+    },
+    {
+        "id": "9da5c02.66c844",
+        "type": "comment",
+        "z": "a1cdce4e0d8623d3",
+        "name": "log_upload.sh",
+        "info": "ftp -inv 192.168.1.x << EOF\n    user <username> <password>\n    binary\n    cd backup/logs\n    lcd /home/pi/datalog\n    put $1\nEOF",
+        "x": 750,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f79c29b7.055068",
+        "type": "comment",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Auto Logger",
+        "info": "",
+        "x": 190,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "4c8ae605.33be88",
+        "type": "function",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Set data",
+        "func": "var now = new Date();\n\nmsg.payload = {\n    \"timestamp\" : now.getTime(),\n    \"temperature\" : msg.msg433.TEMP,\n    \"humidity\" : msg.msg433.HUM\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 500,
+        "wires": [
+            [
+                "f46f569e.ff1a08"
+            ]
+        ]
+    },
+    {
+        "id": "f46f569e.ff1a08",
+        "type": "function",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Filename generator",
+        "func": "// Get the current time and convert it to text\nvar now = new Date();\nvar yyyy = now.getFullYear();\nvar mm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1); // getMonth() is zero-based\nvar dd  = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\nvar hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\nvar mmm  = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\nvar ss  = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\n\n// Generate out file name pattern\nmsg.fname = \"maplin_\"+ yyyy + mm + dd + \".csv\";\n// Full filename with path for the file node later\nmsg.filename = \"/home/pi/datalog/\"+ msg.fname;\n\n// We save the current payload into a different place on the msg object\nmsg.filecontent = msg.payload;\n\n// We are passing the file name search pattern to fs node to tell us if the file exists or not\nmsg.payload = {\"pattern\":msg.fname};\n\nnode.status({fill:\"blue\",shape:\"ring\",text:msg.fname});\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a96494a5.b0f4c8",
+        "type": "debug",
+        "z": "a1cdce4e0d8623d3",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 610,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "3db97537.b889ea",
+        "type": "switch",
+        "z": "a1cdce4e0d8623d3",
+        "name": "",
+        "property": "$count(msg.payload)",
+        "propertyType": "jsonata",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 590,
+        "y": 620,
+        "wires": [
+            [
+                "3cb887e8.e533a8"
+            ],
+            [
+                "f3ba1c7a.54ef5"
+            ]
+        ]
+    },
+    {
+        "id": "fe6f74d5.674ec8",
+        "type": "csv",
+        "z": "a1cdce4e0d8623d3",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "timestamp,temperature,humidity",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": false,
+        "include_null_values": false,
+        "x": 930,
+        "y": 600,
+        "wires": [
+            [
+                "3a8ebdf3.772cc2"
+            ]
+        ]
+    },
+    {
+        "id": "3a8ebdf3.772cc2",
+        "type": "file",
+        "z": "a1cdce4e0d8623d3",
+        "name": "",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 1090,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f226a86d.9bdfb8",
+        "type": "csv",
+        "z": "a1cdce4e0d8623d3",
+        "name": "",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "timestamp,temperature,humidity",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": false,
+        "include_null_values": false,
+        "x": 930,
+        "y": 640,
+        "wires": [
+            [
+                "3a8ebdf3.772cc2"
+            ]
+        ]
+    },
+    {
+        "id": "3cb887e8.e533a8",
+        "type": "change",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Get file content",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "filecontent",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 600,
+        "wires": [
+            [
+                "fe6f74d5.674ec8"
+            ]
+        ]
+    },
+    {
+        "id": "f3ba1c7a.54ef5",
+        "type": "change",
+        "z": "a1cdce4e0d8623d3",
+        "name": "Get file content",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "filecontent",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 760,
+        "y": 640,
+        "wires": [
+            [
+                "f226a86d.9bdfb8"
+            ]
+        ]
+    },
+    {
+        "id": "75a201a8ef889cc4",
+        "type": "modbus-read",
+        "z": "14b9e960a36d6d86",
+        "name": "test",
+        "topic": "test",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "InputRegister",
+        "adr": "1",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 290,
+        "y": 280,
+        "wires": [
+            [
+                "9247b75f420b47e6"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7f14c613483ba709",
+        "type": "debug",
+        "z": "14b9e960a36d6d86",
+        "name": "debug 33",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9247b75f420b47e6",
+        "type": "function",
+        "z": "14b9e960a36d6d86",
+        "name": "function 4",
+        "func": "var values = msg.payload[0]\nmsg.payload = values;\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 280,
+        "wires": [
+            [
+                "7f14c613483ba709"
+            ]
+        ]
+    },
+    {
+        "id": "9b00982bb8edd2b5",
+        "type": "function",
+        "z": "8ca932bf8abd606f",
+        "name": "read fc1",
+        "func": "var values = msg.payload.data\nmsg.payload = {\n    'value': values,\n    'fc':4,\n    'unitid':1,\n    'address':2,\n    'quantity':8\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 260,
+        "wires": [
+            [
+                "40ec9f8d2cbdea22"
+            ]
+        ]
+    },
+    {
+        "id": "e41ddc50cb4d9877",
+        "type": "inject",
+        "z": "8ca932bf8abd606f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "9b00982bb8edd2b5"
+            ]
+        ]
+    },
+    {
+        "id": "40ec9f8d2cbdea22",
+        "type": "modbus-flex-getter",
+        "z": "8ca932bf8abd606f",
+        "name": "testmodbusfc1",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 580,
+        "y": 340,
+        "wires": [
+            [
+                "2ab6fc24fddb230b",
+                "9bfc8f63907fcc91",
+                "1540ea7b0602b4f6"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "2ab6fc24fddb230b",
+        "type": "modbus-response",
+        "z": "8ca932bf8abd606f",
+        "name": "",
+        "registerShowMax": "10",
+        "x": 790,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "9bfc8f63907fcc91",
+        "type": "function",
+        "z": "8ca932bf8abd606f",
+        "name": "readf3",
+        "func": "var values = msg.payload.data\nmsg.payload = {\n    'value': values,\n    'fc':4,\n    'unitid': 1,\n    'address':10,\n    'quantity':10\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 420,
+        "wires": [
+            [
+                "a180abfc30b0cbb6"
+            ]
+        ]
+    },
+    {
+        "id": "a180abfc30b0cbb6",
+        "type": "modbus-flex-getter",
+        "z": "8ca932bf8abd606f",
+        "name": "testmodbusfc3",
+        "showStatusActivities": false,
+        "showErrors": true,
+        "logIOActivities": false,
+        "server": "8a20f52a8f91fbfa",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 600,
+        "y": 440,
+        "wires": [
+            [
+                "77c53288a78d30ee"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "77c53288a78d30ee",
+        "type": "modbus-response",
+        "z": "8ca932bf8abd606f",
+        "name": "",
+        "registerShowMax": "20",
+        "x": 810,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "1540ea7b0602b4f6",
+        "type": "debug",
+        "z": "8ca932bf8abd606f",
+        "name": "debug 32",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 830,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "23185bc91e1a8066",
+        "type": "modbus-read",
+        "z": "0e0e84e3fc6f275e",
+        "name": "analogdata(fc3)-add[0-10]",
+        "topic": "analogdata",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "0",
+        "quantity": "10",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c21726158e252cd6",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 250,
+        "y": 700,
+        "wires": [
+            [
+                "b5989e83c8b01341",
+                "b914cac1e62edba3",
+                "bd06bdc2136b3c9d"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b914cac1e62edba3",
+        "type": "function",
+        "z": "0e0e84e3fc6f275e",
+        "name": "Analog Sensor1-add[0]",
+        "func": "var a_1 = { payload: msg.payload[0]/10 };\na_1.topic = 'Temp';\nreturn [a_1];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 320,
+        "wires": [
+            [
+                "283d523874acd892",
+                "7f48f8b394c75a77"
+            ]
+        ]
+    },
+    {
+        "id": "b5989e83c8b01341",
+        "type": "function",
+        "z": "0e0e84e3fc6f275e",
+        "name": "Analog sensor 2 add[1] ",
+        "func": "var a_2 = { payload: msg.payload[1] / 10 };\na_2.topic = 'Hum';\nreturn [a_2];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 380,
+        "wires": [
+            [
+                "b04aa278d0b15e4b",
+                "7f48f8b394c75a77"
+            ]
+        ]
+    },
+    {
+        "id": "b04aa278d0b15e4b",
+        "type": "debug",
+        "z": "0e0e84e3fc6f275e",
+        "name": "debug function2",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 830,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "868b3da06e375031",
+        "type": "comment",
+        "z": "0e0e84e3fc6f275e",
+        "name": "Data from Sansor Tamp,Hum",
+        "info": "",
+        "x": 540,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "bd06bdc2136b3c9d",
+        "type": "debug",
+        "z": "0e0e84e3fc6f275e",
+        "name": "msg from PLC (D0-9) ",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 550,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "9c9a0270e523a403",
+        "type": "function",
+        "z": "0e0e84e3fc6f275e",
+        "name": "Digital sensor1 add[0]",
+        "func": "var msg1 = { payload: msg.payload[0] };\nreturn msg1;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 760,
+        "wires": [
+            [
+                "319a4e991f5a287a",
+                "f519704ca6fc4eac"
+            ]
+        ]
+    },
+    {
+        "id": "319a4e991f5a287a",
+        "type": "debug",
+        "z": "0e0e84e3fc6f275e",
+        "name": "debug 18",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 850,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "f519704ca6fc4eac",
+        "type": "change",
+        "z": "0e0e84e3fc6f275e",
+        "name": "int to bool",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "num",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "num",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 800,
+        "wires": [
+            [
+                "a7da100730906794"
+            ]
+        ]
+    },
+    {
+        "id": "a7da100730906794",
+        "type": "ui_text",
+        "z": "0e0e84e3fc6f275e",
+        "group": "cc8a5829caf74e5b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sensor 1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1060,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "418fbefb799ff6f8",
+        "type": "function",
+        "z": "0e0e84e3fc6f275e",
+        "name": "Digital sensor2 add[1]",
+        "func": "var msg2 = { payload: msg.payload[1] };\nreturn msg2;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 820,
+        "wires": [
+            [
+                "5a233626e4133d0d",
+                "1f2ba719d5c05c8e"
+            ]
+        ]
+    },
+    {
+        "id": "5a233626e4133d0d",
+        "type": "debug",
+        "z": "0e0e84e3fc6f275e",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 850,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "1f2ba719d5c05c8e",
+        "type": "change",
+        "z": "0e0e84e3fc6f275e",
+        "name": "int to bool",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "num",
+                "to": "true",
+                "tot": "bool"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "num",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 900,
+        "wires": [
+            [
+                "20282b8c2aa4de0a"
+            ]
+        ]
+    },
+    {
+        "id": "20282b8c2aa4de0a",
+        "type": "ui_text",
+        "z": "0e0e84e3fc6f275e",
+        "group": "cc8a5829caf74e5b",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Sensor 2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1060,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "31eed395a57b3eb3",
+        "type": "modbus-read",
+        "z": "0e0e84e3fc6f275e",
+        "name": "digitaldata(fc1)-add[8192-8201]",
+        "topic": "digitaldata",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "Coil",
+        "adr": "8192",
+        "quantity": "16",
+        "rate": "1",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c21726158e252cd6",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 270,
+        "y": 1060,
+        "wires": [
+            [
+                "9c9a0270e523a403",
+                "418fbefb799ff6f8",
+                "39b6bd726d9bf406"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "39b6bd726d9bf406",
+        "type": "debug",
+        "z": "0e0e84e3fc6f275e",
+        "name": "msg from PLC (M0-M9)",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 630,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "283d523874acd892",
+        "type": "debug",
+        "z": "0e0e84e3fc6f275e",
+        "name": "debug function1",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 830,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "7f48f8b394c75a77",
+        "type": "ui_chart",
+        "z": "0e0e84e3fc6f275e",
+        "name": "",
+        "group": "2190dc66088de0cf",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Sensor1 [Temp,Hum]",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "cubic",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#1dd384",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 860,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1243c55f5b8060d2",
+        "type": "comment",
+        "z": "0e0e84e3fc6f275e",
+        "name": "Data from status PLC start or stop",
+        "info": "",
+        "x": 600,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "84c9b169c1c13d8d",
+        "type": "modbus-read",
+        "z": "08f5ef9feb3c1462",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "0",
+        "quantity": "10",
+        "rate": "5",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c21726158e252cd6",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "af30bd803755cca7"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "af30bd803755cca7",
+        "type": "function",
+        "z": "08f5ef9feb3c1462",
+        "name": "function 2",
+        "func": "var t = new Date();\nvar timestemp = t.getFullYear()+\"/\"+(t.getMonth()+1)+\"/\"+t.getDate()\n                +\",\"+t.getHours()+\":\"+t.getMinutes()+\":\"+t.getSeconds();\n\n/* Digital sensor type */ \nvar d_sensor1 =  msg.payload[0];\nvar d_sensor2 =  msg.payload[1];\n\n/* analog sensor */\nvar a_sensor1 = msg.payload[100]/ 10;\nvar a_sensor2 = msg.payload[101]/ 10;\n\nvar data = timestemp + \",\" + d_sensor1 + \",\" + d_sensor2 \n                     +\",\" + a_sensor1 + \",\" + a_sensor2;\n                     \nmsg.payload = data;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 360,
+        "wires": [
+            [
+                "09de22c9d7c7a681",
+                "fde141814a5bb3a7",
+                "b2ad6a886c2f5c2c"
+            ]
+        ]
+    },
+    {
+        "id": "09de22c9d7c7a681",
+        "type": "debug",
+        "z": "08f5ef9feb3c1462",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 810,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "fde141814a5bb3a7",
+        "type": "file",
+        "z": "08f5ef9feb3c1462",
+        "d": true,
+        "name": "",
+        "filename": "home/pi/test.json",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 830,
+        "y": 460,
+        "wires": [
+            [
+                "7305b941c5d12494"
+            ]
+        ]
+    },
+    {
+        "id": "7305b941c5d12494",
+        "type": "json",
+        "z": "08f5ef9feb3c1462",
+        "d": true,
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": true,
+        "x": 1070,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6114fc9f73b6ed96",
+        "type": "csv",
+        "z": "08f5ef9feb3c1462",
+        "name": "savefile",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "all",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "yyyy/mm/dd,HH:MM:SS,D1,D2,A1,A2",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 1080,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b2ad6a886c2f5c2c",
+        "type": "file",
+        "z": "08f5ef9feb3c1462",
+        "name": "",
+        "filename": "home/pi/test.csv",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 820,
+        "y": 520,
+        "wires": [
+            [
+                "6114fc9f73b6ed96"
+            ]
+        ]
+    },
+    {
+        "id": "fc8c2d154bc27337",
+        "type": "function",
+        "z": "79f345073329a474",
+        "name": "Get Max values",
+        "func": "msg.topic = \"SELECT * FROM test1\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 358,
+        "y": 499,
+        "wires": [
+            [
+                "8e21a3d4bbcfda66",
+                "b5599c999c190a5c"
+            ]
+        ]
+    },
+    {
+        "id": "8e21a3d4bbcfda66",
+        "type": "sqlite",
+        "z": "79f345073329a474",
+        "mydb": "ab71b39ac62e3d3f",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "DB",
+        "x": 545,
+        "y": 498,
+        "wires": [
+            [
+                "02d3970190b0a457",
+                "80b7301ec60d2bfb"
+            ]
+        ]
+    },
+    {
+        "id": "8d43a0f85eb6b14b",
+        "type": "sqlite",
+        "z": "79f345073329a474",
+        "mydb": "ab71b39ac62e3d3f",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SaveDB",
+        "x": 560,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b5599c999c190a5c",
+        "type": "debug",
+        "z": "79f345073329a474",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "topic",
+        "statusType": "msg",
+        "x": 570,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "385ace285f538e0d",
+        "type": "modbus-read",
+        "z": "79f345073329a474",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "0",
+        "quantity": "10",
+        "rate": "5",
+        "rateUnit": "s",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "c21726158e252cd6",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 150,
+        "y": 520,
+        "wires": [
+            [
+                "fc8c2d154bc27337",
+                "4e3f5595434baf03"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "02d3970190b0a457",
+        "type": "debug",
+        "z": "79f345073329a474",
+        "name": "debug 27",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 750,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "80b7301ec60d2bfb",
+        "type": "ui_template",
+        "z": "79f345073329a474",
+        "group": "27c3d951.18a4e6",
+        "name": "mc1",
+        "order": 0,
+        "width": "6",
+        "height": "8",
+        "format": "<table style=\"width:100%\">\n    <tr>\n        <th>Time</th>\n        <th>Temp</th>\n        <th>Hum</th>\n    </tr>\n    <tr ng-repeat=\"x in msg.payload | limitTo:10\">\n        <td>{{msg.payload[$index].currenttime}}</td>\n        <td>{{msg.payload[$index].sensor1}}</td>\n        <td>{{msg.payload[$index].sensor2}}</td>\n    </tr>\n</table>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 770,
+        "y": 460,
+        "wires": [
+            [
+                "da7dd1df03501c95"
+            ]
+        ]
+    },
+    {
+        "id": "e104db2301b6fa56",
+        "type": "inject",
+        "z": "79f345073329a474",
+        "d": true,
+        "name": "SELECT",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "SELECT * FROM dhtreadings",
+        "payload": "",
+        "payloadType": "date",
+        "x": 440,
+        "y": 760,
+        "wires": [
+            [
+                "e1009d60436e0499"
+            ]
+        ]
+    },
+    {
+        "id": "e1009d60436e0499",
+        "type": "sqlite",
+        "z": "79f345073329a474",
+        "d": true,
+        "mydb": "ab71b39ac62e3d3f",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "SaveDB",
+        "x": 600,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da7dd1df03501c95",
+        "type": "debug",
+        "z": "79f345073329a474",
+        "name": "debug 28",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 850,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "4e3f5595434baf03",
+        "type": "function",
+        "z": "79f345073329a474",
+        "name": "SQL Updates",
+        "func": "var t = new Date();\nvar date = t.getFullYear() + \"/\" + (t.getMonth() + 1) + \"/\" + t.getDate();\nvar timestamp =t.getHours() + \":\" + t.getMinutes() + \":\" + t.getSeconds();\n\nvar sql = \"\";\nvar outputs = [];\n\n\n/* Digital sensor type */\nvar d_sensor1 = msg.payload[0];\nvar d_sensor2 = msg.payload[1];\n\n/* analog sensor */\n// var a_sensor1 = msg.payload[100]/10;\n// var a_sensor2 = msg.payload[101]/10;\nvar newMsg = {\n       \"topic\": \"INSERT INTO test1 (sensor1,sensor2,currenttime) VALUES ( \" + msg.payload[0] + \", \" + msg.payload[1] + \", \" + t.getTime() + \")\"\n}\n\nreturn newMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 600,
+        "wires": [
+            [
+                "8d43a0f85eb6b14b"
+            ]
+        ]
+    },
+    {
+        "id": "bd59b85.434d948",
+        "type": "function",
+        "z": "27f25c95.8feb34",
+        "name": "Save to DB",
+        "func": "var sql = \"\";\nvar d = new Date();\nvar epoch = d.getTime();\nvar outputs = [];\n\nsql = \"INSERT INTO sensor_data (device,sensor,value,epoch) \" +\n        \"VALUES ('miflora','temp',\"+msg.payload.temperature+\",\"+epoch+\")\";\noutputs.push({topic:sql});        \nsql = \"INSERT INTO sensor_data(device,sensor,value,epoch) \" +\n        \"VALUES ('miflora','sunlight',\"+msg.payload.sunlight+\",\"+epoch+\")\";\noutputs.push({topic:sql});        \nsql = \"INSERT INTO sensor_data(device,sensor,value,epoch) \" +\n        \"VALUES ('miflora','moisture',\"+msg.payload.moisture+\",\"+epoch+\")\";\noutputs.push({topic:sql});        \nsql = \"INSERT INTO sensor_data(device,sensor,value,epoch) \" +\n        \"VALUES ('miflora','fertility',\"+msg.payload.fertility+\",\"+epoch+\")\";        \noutputs.push({topic:sql});        \nsql = \"INSERT INTO sensor_data(device,sensor,value,epoch) \" +\n        \"VALUES ('miflora','battery',\"+msg.payload.battery+\",\"+epoch+\")\";        \noutputs.push({topic:sql});        \n    \n// Update the status with current timestamp\nvar now = new Date();\nvar yyyy = now.getFullYear();\nvar mm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1); // getMonth() is zero-based\nvar dd  = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\nvar hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\nvar mmm  = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\nvar ss  = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\nnode.status({fill:\"blue\",shape:\"ring\",text:\"Last update: \"+dd + \".\" + mm + \".\" + yyyy + \" \" + hh + \":\" + mmm + \":\" + ss});    \n      \nreturn [ outputs ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 131,
+        "y": 94,
+        "wires": [
+            [
+                "ee6dfa23.54e328"
+            ]
+        ]
+    },
+    {
+        "id": "ee6dfa23.54e328",
+        "type": "sqlite",
+        "z": "27f25c95.8feb34",
+        "mydb": "1c25415d.b8427f",
+        "sql": "",
+        "name": "Node Red DB",
+        "x": 375,
+        "y": 94,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "99dd1a93.c13038",
+        "type": "comment",
+        "z": "27f25c95.8feb34",
+        "name": "Example on how to save multiple data points in DB",
+        "info": "This function node creates multiple INSERT INTO\ncommands for data points that are stored in \nattributes of the payload.",
+        "x": 237,
+        "y": 46,
+        "wires": []
+    },
+    {
+        "id": "bf26f95a.fe9078",
+        "type": "comment",
+        "z": "27f25c95.8feb34",
+        "name": "Data aggregation",
+        "info": "Below example extract max, min and last from the\nsensor log table, and inserts them into an\naggregate table.",
+        "x": 131.25,
+        "y": 347.5,
+        "wires": []
+    },
+    {
+        "id": "fbe82347.73043",
+        "type": "inject",
+        "z": "27f25c95.8feb34",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 03 * * *",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120.25,
+        "y": 444.5000476837158,
+        "wires": [
+            [
+                "aad5ab51.b05f78"
+            ]
+        ]
+    },
+    {
+        "id": "aad5ab51.b05f78",
+        "type": "function",
+        "z": "27f25c95.8feb34",
+        "name": "Get Max values",
+        "func": "var d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n// calculate end of the day\nd.setHours(23);\nd.setMinutes(59);\nd.setSeconds(59);\nd.setMilliseconds(999);\nvar enddate = d.getTime();\n\nmsg.topic = \"SELECT device,sensor,max(value) AS value FROM sensor_data WHERE epoch >= \" + fromdate + \" AND epoch <= \" + enddate + \" AND (sensor='temp' or sensor='power' or sensor='moisture') GROUP BY sensor\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 308.25,
+        "y": 443.5000476837158,
+        "wires": [
+            [
+                "5f7eb893.60baa8"
+            ]
+        ]
+    },
+    {
+        "id": "5f7eb893.60baa8",
+        "type": "sqlite",
+        "z": "27f25c95.8feb34",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "DB",
+        "x": 495.25,
+        "y": 442.5000476837158,
+        "wires": [
+            [
+                "9ae6ccc1.5ae62"
+            ]
+        ]
+    },
+    {
+        "id": "a558b020.258de",
+        "type": "function",
+        "z": "27f25c95.8feb34",
+        "name": "Get Min values",
+        "func": "var d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n// calculate end of the day\nd.setHours(23);\nd.setMinutes(59);\nd.setSeconds(59);\nd.setMilliseconds(999);\nvar enddate = d.getTime();\n\nmsg.topic = \"SELECT device,sensor,MIN(value) as value FROM sensor_data WHERE epoch >= \" + fromdate + \" AND epoch <= \" + enddate + \" AND (sensor='temp' OR sensor='battery') GROUP BY sensor\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 308.25,
+        "y": 544.5000476837158,
+        "wires": [
+            [
+                "2b6fc149.ea12be"
+            ]
+        ]
+    },
+    {
+        "id": "2b6fc149.ea12be",
+        "type": "sqlite",
+        "z": "27f25c95.8feb34",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "DB",
+        "x": 495.25,
+        "y": 543.5000476837158,
+        "wires": [
+            [
+                "e6cc72c.c49f89"
+            ]
+        ]
+    },
+    {
+        "id": "b64bf25c.43bb3",
+        "type": "function",
+        "z": "27f25c95.8feb34",
+        "name": "Get Last values",
+        "func": "var output = [];\nvar d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n// calculate end of the day\nd.setHours(23);\nd.setMinutes(59);\nd.setSeconds(59);\nd.setMilliseconds(999);\nvar enddate = d.getTime();\n\noutput.push({ topic:\"SELECT device,sensor,value FROM sensor_data WHERE epoch >= \" + fromdate + \" AND epoch <= \" + enddate + \" AND device='growatt' AND sensor='today' ORDER BY id DESC LIMIT 1 \" });\noutput.push({ topic:\"SELECT device,sensor,value FROM sensor_data WHERE epoch >= \" + fromdate + \" AND epoch <= \" + enddate + \" AND device='miflora' AND sensor='moisture' ORDER BY id DESC LIMIT 1 \" });\n\nreturn [output];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 308.25,
+        "y": 660.5000476837158,
+        "wires": [
+            [
+                "5c78701f.0ff3d"
+            ]
+        ]
+    },
+    {
+        "id": "5c78701f.0ff3d",
+        "type": "sqlite",
+        "z": "27f25c95.8feb34",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "DB",
+        "x": 495.25,
+        "y": 659.5000476837158,
+        "wires": [
+            [
+                "a8ca789d.37b488"
+            ]
+        ]
+    },
+    {
+        "id": "418be32f.f2be6c",
+        "type": "inject",
+        "z": "27f25c95.8feb34",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "01 03 * * *",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 125.25,
+        "y": 548.5000476837158,
+        "wires": [
+            [
+                "a558b020.258de"
+            ]
+        ]
+    },
+    {
+        "id": "b7be665d.311de8",
+        "type": "inject",
+        "z": "27f25c95.8feb34",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "02 03 * * *",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 119.25,
+        "y": 663.5000476837158,
+        "wires": [
+            [
+                "b64bf25c.43bb3"
+            ]
+        ]
+    },
+    {
+        "id": "a8ca789d.37b488",
+        "type": "function",
+        "z": "27f25c95.8feb34",
+        "name": "SQL Updates",
+        "func": "var output = [];\nvar d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n\nmsg.topic = \"INSERT OR REPLACE INTO sensor_aggr (epoch,device,sensor,value) VALUES(\"+fromdate+\",'\"+msg.payload[0].device+\"','\"+msg.payload[0].sensor+\"',\"+msg.payload[0].value+\")\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 675.2500152587891,
+        "y": 705.5000953674316,
+        "wires": [
+            [
+                "c1c4ff21.c72f4"
+            ]
+        ]
+    },
+    {
+        "id": "9ae6ccc1.5ae62",
+        "type": "function",
+        "z": "27f25c95.8feb34",
+        "name": "SQL Updates",
+        "func": "var output = [];\nvar d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n\nfor (var i=0; i<msg.payload.length; i++) {\n    output.push({ topic:\"INSERT OR REPLACE INTO sensor_aggr (epoch,device,sensor,value) VALUES(\"+fromdate+\",'\"+msg.payload[i].device+\"','\"+msg.payload[i].sensor+\"_max',\"+msg.payload[i].value+\")\" });\n}\n\nreturn [output];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 656.2500152587891,
+        "y": 497.50009536743164,
+        "wires": [
+            [
+                "c1c4ff21.c72f4"
+            ]
+        ]
+    },
+    {
+        "id": "e6cc72c.c49f89",
+        "type": "function",
+        "z": "27f25c95.8feb34",
+        "name": "SQL Updates",
+        "func": "var output = [];\nvar d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n\nfor (var i=0; i<msg.payload.length; i++) {\n    output.push({ topic:\"INSERT OR REPLACE INTO sensor_aggr (epoch,device,sensor,value) VALUES(\"+fromdate+\",'\"+msg.payload[i].device+\"','\"+msg.payload[i].sensor+\"_min',\"+msg.payload[i].value+\")\" });\n}\n\nreturn [output];",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 670.2500152587891,
+        "y": 599.5000953674316,
+        "wires": [
+            [
+                "c1c4ff21.c72f4"
+            ]
+        ]
+    },
+    {
+        "id": "c1c4ff21.c72f4",
+        "type": "sqlite",
+        "z": "27f25c95.8feb34",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "DB",
+        "x": 908.5833282470703,
+        "y": 560.5000953674316,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a4093916.fa4c38",
+        "type": "comment",
+        "z": "27f25c95.8feb34",
+        "name": "Calculate aggregated values (min,max,last)",
+        "info": "",
+        "x": 395.5833282470703,
+        "y": 396.5000476837158,
+        "wires": []
+    },
+    {
+        "id": "d8b33397.29f5b",
+        "type": "comment",
+        "z": "27f25c95.8feb34",
+        "name": "Insert aggregated values to new table",
+        "info": "",
+        "x": 756.5833282470703,
+        "y": 448.5000476837158,
+        "wires": []
+    },
+    {
+        "id": "45b3039d.9b2fac",
+        "type": "ui_chart",
+        "z": "27f25c95.8feb34",
+        "name": "Temperature",
+        "group": "27c3d951.18a4e6",
+        "order": 2,
+        "width": "",
+        "height": "",
+        "label": "",
+        "chartType": "line",
+        "xformat": "%H:%M:%S",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 628.25,
+        "y": 248.75,
+        "wires": [
+            [
+                "42239353.a0ebdc"
+            ]
+        ]
+    },
+    {
+        "id": "42239353.a0ebdc",
+        "type": "file",
+        "z": "27f25c95.8feb34",
+        "name": "Chart dump",
+        "filename": "/home/pi/miflora_temp.dump",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 822.25,
+        "y": 242.75,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6a1cb72d.8b6348",
+        "type": "file in",
+        "z": "27f25c95.8feb34",
+        "name": "Chart dump",
+        "filename": "/home/pi/miflora_temp.dump",
+        "filenameType": "str",
+        "format": "utf8",
+        "allProps": false,
+        "x": 270.25,
+        "y": 250.75,
+        "wires": [
+            [
+                "f8940a20.feef98"
+            ]
+        ]
+    },
+    {
+        "id": "294483f1.957e7c",
+        "type": "inject",
+        "z": "27f25c95.8feb34",
+        "name": "Startup",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 116.25,
+        "y": 251.75,
+        "wires": [
+            [
+                "6a1cb72d.8b6348"
+            ]
+        ]
+    },
+    {
+        "id": "f8940a20.feef98",
+        "type": "json",
+        "z": "27f25c95.8feb34",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 422.25,
+        "y": 250.75,
+        "wires": [
+            [
+                "45b3039d.9b2fac"
+            ]
+        ]
+    },
+    {
+        "id": "9937da83.369da8",
+        "type": "comment",
+        "z": "27f25c95.8feb34",
+        "name": "Dashboard graph backup example",
+        "info": "This flow section shows how to back up the graph\nstate to a local file and restore that at startup.\nThis loads the last graph state so you don't get\nthe \"No data\" screen after node red restart.",
+        "x": 187.5,
+        "y": 191.25,
+        "wires": []
+    },
+    {
+        "id": "8b341a53.4d5ed8",
+        "type": "function",
+        "z": "27f25c95.8feb34",
+        "name": "SQL",
+        "func": "// This will handle any device and any attribute as long as it is in the DB\nvar Week  = 604800000 ; //7 Days\nvar Day   =  86400000 ; // 1 Days\nvar d = new Date();\nvar epoch = d.getTime();\nvar fromdate = epoch - Day;\nvar enddate = epoch;\nvar output = [];\n\nfor (var property in msg.payload) {\n    if (msg.payload.hasOwnProperty(property)) {\n        //output.push({ payload: property + \" has value \"+msg.payload[property] });\n        if (msg.payload[property]) {\n            var parts = property.split(\"/\");\n            if (parts[0]===\"period\") {\n                switch (parts[1]) {\n                    case \"today\":\n                        fromdate = epoch-Day;\n                        enddate = epoch;\n                        break;\n                    case \"yesterday\":\n                        fromdate = epoch-2*Day;\n                        enddate = epoch-Day;\n                        break;\n                    case \"week\":\n                        fromdate = epoch-Week;\n                        enddate = epoch;\n                        break;\n                }\n            } else {\n                output.push({ topic: \"SELECT * FROM sensor_data WHERE device='\"+parts[0]+\"' AND sensor='\"+parts[1]+\"' AND epoch >= \" + fromdate + \" AND epoch <= \" + enddate });\n            }\n        }\n    }\n}\n\noutput[output.length-1].complete=true;\n\nreturn [ output ];\n\n//msg.topic = \"SELECT * FROM sensor_data WHERE device='growatt' AND sensor='power' AND epoch >= \" + fromdate + \" AND epoch <= \" + epoch ;\n//return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 316.25,
+        "y": 895,
+        "wires": [
+            [
+                "bbf81e68.a7ee1"
+            ]
+        ]
+    },
+    {
+        "id": "bbf81e68.a7ee1",
+        "type": "sqlite",
+        "z": "27f25c95.8feb34",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "DB",
+        "x": 462.25,
+        "y": 896,
+        "wires": [
+            [
+                "ee672a38.931748"
+            ]
+        ]
+    },
+    {
+        "id": "2caa3402.536a0c",
+        "type": "ui_chart",
+        "z": "27f25c95.8feb34",
+        "name": "Chart",
+        "group": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "%a %H:%M",
+        "interpolate": "linear",
+        "nodata": "",
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderUnit": "604800",
+        "outputs": 2,
+        "x": 809.25,
+        "y": 996,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "ac39fc2.3779d",
+        "type": "function",
+        "z": "27f25c95.8feb34",
+        "name": "Prep",
+        "func": "var msg2 = [];\n\n// this is the logic when there are multiple data sets are received\nfor (var i=0; i<msg.payload.length; i++) {\n    var output = [];\n    for (var j=0; j<msg.payload[i].length; j++) {\n        output.push([msg.payload[i][j].epoch, msg.payload[i][j].value]);\n    }\n    msg2.push({ key: msg.payload[i][0].device+\"/\"+msg.payload[i][0].sensor, values : output});\n    //msg2.push({ key: \"test\", values : output});\n}\n\nmsg.payload=msg2;\n//msg.payload = [ { key: \"Power\", values : output} ];\n//msg.topic = \"Power\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 793.25,
+        "y": 898,
+        "wires": [
+            [
+                "2caa3402.536a0c"
+            ]
+        ]
+    },
+    {
+        "id": "18961c51.640204",
+        "type": "inject",
+        "z": "27f25c95.8feb34",
+        "name": "Reset chart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 151.25,
+        "y": 1018,
+        "wires": [
+            [
+                "379bf862.755b58"
+            ]
+        ]
+    },
+    {
+        "id": "379bf862.755b58",
+        "type": "function",
+        "z": "27f25c95.8feb34",
+        "name": "Empty payload",
+        "func": "msg.payload = [];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 479.25,
+        "y": 1017,
+        "wires": [
+            [
+                "2caa3402.536a0c"
+            ]
+        ]
+    },
+    {
+        "id": "45a070cf.ba722",
+        "type": "ui_form",
+        "z": "27f25c95.8feb34",
+        "name": "Data points",
+        "label": "",
+        "group": "1e17cd0b.862863",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Period: today",
+                "value": "period/today",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Period: yesterday",
+                "value": "period/yesterday",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Period: this week",
+                "value": "period/week",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Miflora temperature",
+                "value": "miflora/temp",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Miflora battery level",
+                "value": "miflora/battery",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Miflora sunlight",
+                "value": "miflora/sunlight",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Miflora soil moisture",
+                "value": "miflora/moisture",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Miflora soil fertility",
+                "value": "miflora/fertility",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Solar power",
+                "value": "growatt/power",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Solar voltage",
+                "value": "growatt/voltage",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "period/today": false,
+            "period/yesterday": false,
+            "period/week": false,
+            "miflora/temp": false,
+            "miflora/battery": false,
+            "miflora/sunlight": false,
+            "miflora/moisture": false,
+            "miflora/fertility": false,
+            "growatt/power": false,
+            "growatt/voltage": false
+        },
+        "payload": "",
+        "submit": "",
+        "cancel": "",
+        "topic": "",
+        "topicType": "str",
+        "splitLayout": false,
+        "className": "",
+        "x": 121.25,
+        "y": 842,
+        "wires": [
+            [
+                "8b341a53.4d5ed8"
+            ]
+        ]
+    },
+    {
+        "id": "ee672a38.931748",
+        "type": "join",
+        "z": "27f25c95.8feb34",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 604.25,
+        "y": 896,
+        "wires": [
+            [
+                "ac39fc2.3779d"
+            ]
+        ]
+    },
+    {
+        "id": "9c5689c9.61db68",
+        "type": "comment",
+        "z": "27f25c95.8feb34",
+        "name": "Dynamic report example",
+        "info": "This flow can generate graph based from data stored\nin the database and display multiple data points\nin a single graph.",
+        "x": 153.75,
+        "y": 787.5,
+        "wires": []
+    },
+    {
+        "id": "eae845ead9036d64",
+        "type": "modbus-flex-getter",
+        "z": "4abe8ecf95d58e7b",
+        "d": true,
+        "name": "radfc1",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "server": "c21726158e252cd6",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "2f1a01316f6b41e0"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "e33b165f0510a4d6",
+        "type": "function",
+        "z": "4abe8ecf95d58e7b",
+        "name": "modbusFC3 add[0-10]",
+        "func": "var msg0 ={};\nvar msg1 = {};\nmsg0.payload = {\n    'fc':3,\n    'unitid':1,\n    'address':0,\n    'quantity':10\n};\n\nmsg1.payload ={\n      'fc': 1,\n      'unitid': 1,\n      'address': 8192,\n      'quantity': 10\n   };\n\nreturn [msg0,msg1];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [
+                "d831b1d6a5a5a45e"
+            ]
+        ]
+    },
+    {
+        "id": "f73ea4289ecde04a",
+        "type": "inject",
+        "z": "4abe8ecf95d58e7b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "e33b165f0510a4d6"
+            ]
+        ]
+    },
+    {
+        "id": "2f1a01316f6b41e0",
+        "type": "debug",
+        "z": "4abe8ecf95d58e7b",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 810,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "fd2382dc901ffb7e",
+        "type": "function",
+        "z": "4abe8ecf95d58e7b",
+        "name": "modbusFc1 add[8192-8201]",
+        "func": "msg.payload = {\n    'fc': 1,\n    'unitid': 1,\n    'address': 8192,\n    'quantity': 10\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 340,
+        "wires": [
+            [
+                "eae845ead9036d64"
+            ]
+        ]
+    },
+    {
+        "id": "d831b1d6a5a5a45e",
+        "type": "modbus-flex-getter",
+        "z": "4abe8ecf95d58e7b",
+        "d": true,
+        "name": "read-fc3",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "server": "c21726158e252cd6",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 440,
+        "y": 260,
+        "wires": [
+            [
+                "fd2382dc901ffb7e",
+                "875f893db036e527"
+            ],
+            [
+                "f86d964c11679ff6"
+            ]
+        ]
+    },
+    {
+        "id": "875f893db036e527",
+        "type": "debug",
+        "z": "4abe8ecf95d58e7b",
+        "name": "debug 30",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 730,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "f86d964c11679ff6",
+        "type": "debug",
+        "z": "4abe8ecf95d58e7b",
+        "name": "debug 31",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 690,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "90a9c07820af2446",
+        "type": "function",
+        "z": "1966cee03176d826",
+        "name": "Save to DB",
+        "func": "var sql = \"\";\nvar d = new Date();\nvar epoch = d.getTime();\nvar outputs = [];\n\nsql = \"INSERT INTO sensor_data (device,sensor,value,epoch) \" +\n        \"VALUES ('miflora','temp',\"+10+\",\"+epoch+\")\";\noutputs.push({topic:sql});        \nsql = \"INSERT INTO sensor_data(device,sensor,value,epoch) \" +\n        \"VALUES ('miflora','sunlight',\"+20+\",\"+epoch+\")\";\noutputs.push({topic:sql});        \nsql = \"INSERT INTO sensor_data(device,sensor,value,epoch) \" +\n        \"VALUES ('miflora','moisture',\"+30+\",\"+epoch+\")\";\noutputs.push({topic:sql});        \nsql = \"INSERT INTO sensor_data(device,sensor,value,epoch) \" +\n        \"VALUES ('miflora','fertility',\"+40+\",\"+epoch+\")\";        \noutputs.push({topic:sql});        \nsql = \"INSERT INTO sensor_data(device,sensor,value,epoch) \" +\n        \"VALUES ('miflora','battery',\"+50+\",\"+epoch+\")\";        \noutputs.push({topic:sql});        \n    \n// Update the status with current timestamp\nvar now = new Date();\nvar yyyy = now.getFullYear();\nvar mm = now.getMonth() < 9 ? \"0\" + (now.getMonth() + 1) : (now.getMonth() + 1); // getMonth() is zero-based\nvar dd  = now.getDate() < 10 ? \"0\" + now.getDate() : now.getDate();\nvar hh = now.getHours() < 10 ? \"0\" + now.getHours() : now.getHours();\nvar mmm  = now.getMinutes() < 10 ? \"0\" + now.getMinutes() : now.getMinutes();\nvar ss  = now.getSeconds() < 10 ? \"0\" + now.getSeconds() : now.getSeconds();\nnode.status({fill:\"blue\",shape:\"ring\",text:\"Last update: \"+dd + \".\" + mm + \".\" + yyyy + \" \" + hh + \":\" + mmm + \":\" + ss});    \n      \nreturn [ outputs ];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 100,
+        "wires": [
+            [
+                "fcb4e2e40604fead"
+            ]
+        ]
+    },
+    {
+        "id": "fcb4e2e40604fead",
+        "type": "sqlite",
+        "z": "1966cee03176d826",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "Node Red DB",
+        "x": 414,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5dc300d0369e2ae6",
+        "type": "comment",
+        "z": "1966cee03176d826",
+        "name": "Example on how to save multiple data points in DB",
+        "info": "This function node creates multiple INSERT INTO\ncommands for data points that are stored in \nattributes of the payload.",
+        "x": 276,
+        "y": 52,
+        "wires": []
+    },
+    {
+        "id": "d4fc9419a685fe09",
+        "type": "comment",
+        "z": "1966cee03176d826",
+        "name": "Data aggregation",
+        "info": "Below example extract max, min and last from the\nsensor log table, and inserts them into an\naggregate table.",
+        "x": 170.25,
+        "y": 353.5,
+        "wires": []
+    },
+    {
+        "id": "522fbaa59c0196ad",
+        "type": "inject",
+        "z": "1966cee03176d826",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "00 03 * * *",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 159.25,
+        "y": 450.5000476837158,
+        "wires": [
+            [
+                "4493c1430faa28d4"
+            ]
+        ]
+    },
+    {
+        "id": "4493c1430faa28d4",
+        "type": "function",
+        "z": "1966cee03176d826",
+        "name": "Get Max values",
+        "func": "var d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n// calculate end of the day\nd.setHours(23);\nd.setMinutes(59);\nd.setSeconds(59);\nd.setMilliseconds(999);\nvar enddate = d.getTime();\n\nmsg.topic = \"SELECT device,sensor,max(value) AS value FROM sensor_data WHERE epoch >= \" + fromdate + \" AND epoch <= \" + enddate + \" AND (sensor='temp' or sensor='power' or sensor='moisture') GROUP BY sensor\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 347.25,
+        "y": 449.5000476837158,
+        "wires": [
+            [
+                "70a2ab0826a14465"
+            ]
+        ]
+    },
+    {
+        "id": "70a2ab0826a14465",
+        "type": "sqlite",
+        "z": "1966cee03176d826",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "DB",
+        "x": 534.25,
+        "y": 448.5000476837158,
+        "wires": [
+            [
+                "e447f0cea85c4582"
+            ]
+        ]
+    },
+    {
+        "id": "fab38b7855cf1ffc",
+        "type": "function",
+        "z": "1966cee03176d826",
+        "name": "Get Min values",
+        "func": "var d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n// calculate end of the day\nd.setHours(23);\nd.setMinutes(59);\nd.setSeconds(59);\nd.setMilliseconds(999);\nvar enddate = d.getTime();\n\nmsg.topic = \"SELECT device,sensor,MIN(value) as value FROM sensor_data WHERE epoch >= \" + fromdate + \" AND epoch <= \" + enddate + \" AND (sensor='temp' OR sensor='battery') GROUP BY sensor\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 347.25,
+        "y": 550.5000476837158,
+        "wires": [
+            [
+                "67ab726cac64301f"
+            ]
+        ]
+    },
+    {
+        "id": "67ab726cac64301f",
+        "type": "sqlite",
+        "z": "1966cee03176d826",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "DB",
+        "x": 534.25,
+        "y": 549.5000476837158,
+        "wires": [
+            [
+                "ce8a5c576c145930"
+            ]
+        ]
+    },
+    {
+        "id": "0c4bf62b102ef28c",
+        "type": "function",
+        "z": "1966cee03176d826",
+        "name": "Get Last values",
+        "func": "var output = [];\nvar d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n// calculate end of the day\nd.setHours(23);\nd.setMinutes(59);\nd.setSeconds(59);\nd.setMilliseconds(999);\nvar enddate = d.getTime();\n\noutput.push({ topic:\"SELECT device,sensor,value FROM sensor_data WHERE epoch >= \" + fromdate + \" AND epoch <= \" + enddate + \" AND device='growatt' AND sensor='today' ORDER BY id DESC LIMIT 1 \" });\noutput.push({ topic:\"SELECT device,sensor,value FROM sensor_data WHERE epoch >= \" + fromdate + \" AND epoch <= \" + enddate + \" AND device='miflora' AND sensor='moisture' ORDER BY id DESC LIMIT 1 \" });\n\nreturn [output];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 347.25,
+        "y": 666.5000476837158,
+        "wires": [
+            [
+                "aeb7f514a037b28f"
+            ]
+        ]
+    },
+    {
+        "id": "aeb7f514a037b28f",
+        "type": "sqlite",
+        "z": "1966cee03176d826",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "DB",
+        "x": 534.25,
+        "y": 665.5000476837158,
+        "wires": [
+            [
+                "a033433c80b2d249"
+            ]
+        ]
+    },
+    {
+        "id": "243b4b66b2c19157",
+        "type": "inject",
+        "z": "1966cee03176d826",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "01 03 * * *",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 164.25,
+        "y": 554.5000476837158,
+        "wires": [
+            [
+                "fab38b7855cf1ffc"
+            ]
+        ]
+    },
+    {
+        "id": "a4541f00ab4da077",
+        "type": "inject",
+        "z": "1966cee03176d826",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "02 03 * * *",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 158.25,
+        "y": 669.5000476837158,
+        "wires": [
+            [
+                "0c4bf62b102ef28c"
+            ]
+        ]
+    },
+    {
+        "id": "a033433c80b2d249",
+        "type": "function",
+        "z": "1966cee03176d826",
+        "name": "SQL Updates",
+        "func": "var output = [];\nvar d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n\nmsg.topic = \"INSERT OR REPLACE INTO sensor_aggr (epoch,device,sensor,value) VALUES(\"+fromdate+\",'\"+msg.payload[0].device+\"','\"+msg.payload[0].sensor+\"',\"+msg.payload[0].value+\")\";\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 714.2500152587891,
+        "y": 711.5000953674316,
+        "wires": [
+            [
+                "c3404a80230705d9"
+            ]
+        ]
+    },
+    {
+        "id": "e447f0cea85c4582",
+        "type": "function",
+        "z": "1966cee03176d826",
+        "name": "SQL Updates",
+        "func": "var output = [];\nvar d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n\nfor (var i=0; i<msg.payload.length; i++) {\n    output.push({ topic:\"INSERT OR REPLACE INTO sensor_aggr (epoch,device,sensor,value) VALUES(\"+fromdate+\",'\"+msg.payload[i].device+\"','\"+msg.payload[i].sensor+\"_max',\"+msg.payload[i].value+\")\" });\n}\n\nreturn [output];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 695.2500152587891,
+        "y": 503.50009536743164,
+        "wires": [
+            [
+                "c3404a80230705d9"
+            ]
+        ]
+    },
+    {
+        "id": "ce8a5c576c145930",
+        "type": "function",
+        "z": "1966cee03176d826",
+        "name": "SQL Updates",
+        "func": "var output = [];\nvar d = new Date();\nvar epoch = d.getTime();\n// Go to previous day\nd.setTime(d.getTime()-(24*60*60*1000));\n// calculate begining of the day\nd.setHours(0);\nd.setMinutes(0);\nd.setSeconds(0);\nd.setMilliseconds(0);\nvar fromdate = d.getTime();\n\nfor (var i=0; i<msg.payload.length; i++) {\n    output.push({ topic:\"INSERT OR REPLACE INTO sensor_aggr (epoch,device,sensor,value) VALUES(\"+fromdate+\",'\"+msg.payload[i].device+\"','\"+msg.payload[i].sensor+\"_min',\"+msg.payload[i].value+\")\" });\n}\n\nreturn [output];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 709.2500152587891,
+        "y": 605.5000953674316,
+        "wires": [
+            [
+                "c3404a80230705d9"
+            ]
+        ]
+    },
+    {
+        "id": "c3404a80230705d9",
+        "type": "sqlite",
+        "z": "1966cee03176d826",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "DB",
+        "x": 947.5833282470703,
+        "y": 566.5000953674316,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "47f74ec7aac02603",
+        "type": "comment",
+        "z": "1966cee03176d826",
+        "name": "Calculate aggregated values (min,max,last)",
+        "info": "",
+        "x": 434.5833282470703,
+        "y": 402.5000476837158,
+        "wires": []
+    },
+    {
+        "id": "4643a96941977240",
+        "type": "comment",
+        "z": "1966cee03176d826",
+        "name": "Insert aggregated values to new table",
+        "info": "",
+        "x": 795.5833282470703,
+        "y": 454.5000476837158,
+        "wires": []
+    },
+    {
+        "id": "66822f5d2b0a8462",
+        "type": "ui_chart",
+        "z": "1966cee03176d826",
+        "name": "Temperature",
+        "group": "27c3d951.18a4e6",
+        "order": 2,
+        "width": "",
+        "height": "",
+        "label": "",
+        "chartType": "line",
+        "xformat": "%H:%M:%S",
+        "interpolate": "linear",
+        "nodata": "No Data",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 667.25,
+        "y": 254.75,
+        "wires": [
+            [
+                "28e81be5a31b0c34"
+            ]
+        ]
+    },
+    {
+        "id": "28e81be5a31b0c34",
+        "type": "file",
+        "z": "1966cee03176d826",
+        "name": "Chart dump",
+        "filename": "/home/pi/miflora_temp.dump",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 861.25,
+        "y": 248.75,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a27658a874d9925a",
+        "type": "file in",
+        "z": "1966cee03176d826",
+        "name": "Chart dump",
+        "filename": "/home/pi/miflora_temp.dump",
+        "filenameType": "str",
+        "format": "utf8",
+        "allProps": false,
+        "x": 309.25,
+        "y": 256.75,
+        "wires": [
+            [
+                "f5c4dd4dfae49dd8"
+            ]
+        ]
+    },
+    {
+        "id": "056b7151afd3e62f",
+        "type": "inject",
+        "z": "1966cee03176d826",
+        "name": "Startup",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 155.25,
+        "y": 257.75,
+        "wires": [
+            [
+                "a27658a874d9925a"
+            ]
+        ]
+    },
+    {
+        "id": "f5c4dd4dfae49dd8",
+        "type": "json",
+        "z": "1966cee03176d826",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 461.25,
+        "y": 256.75,
+        "wires": [
+            [
+                "66822f5d2b0a8462"
+            ]
+        ]
+    },
+    {
+        "id": "5882f41492d50256",
+        "type": "comment",
+        "z": "1966cee03176d826",
+        "name": "Dashboard graph backup example",
+        "info": "This flow section shows how to back up the graph\nstate to a local file and restore that at startup.\nThis loads the last graph state so you don't get\nthe \"No data\" screen after node red restart.",
+        "x": 226.5,
+        "y": 197.25,
+        "wires": []
+    },
+    {
+        "id": "bf31282cf5beb2bd",
+        "type": "function",
+        "z": "1966cee03176d826",
+        "name": "SQL",
+        "func": "// This will handle any device and any attribute as long as it is in the DB\nvar Week  = 604800000 ; //7 Days\nvar Day   =  86400000 ; // 1 Days\nvar d = new Date();\nvar epoch = d.getTime();\nvar fromdate = epoch - Day;\nvar enddate = epoch;\nvar output = [];\n\nfor (var property in msg.payload) {\n    if (msg.payload.hasOwnProperty(property)) {\n        //output.push({ payload: property + \" has value \"+msg.payload[property] });\n        if (msg.payload[property]) {\n            var parts = property.split(\"/\");\n            if (parts[0]===\"period\") {\n                switch (parts[1]) {\n                    case \"today\":\n                        fromdate = epoch-Day;\n                        enddate = epoch;\n                        break;\n                    case \"yesterday\":\n                        fromdate = epoch-2*Day;\n                        enddate = epoch-Day;\n                        break;\n                    case \"week\":\n                        fromdate = epoch-Week;\n                        enddate = epoch;\n                        break;\n                }\n            } else {\n                output.push({ topic: \"SELECT * FROM sensor_data WHERE device='\"+parts[0]+\"' AND sensor='\"+parts[1]+\"' AND epoch >= \" + fromdate + \" AND epoch <= \" + enddate });\n            }\n        }\n    }\n}\n\noutput[output.length-1].complete=true;\n\nreturn [ output ];\n\n//msg.topic = \"SELECT * FROM sensor_data WHERE device='growatt' AND sensor='power' AND epoch >= \" + fromdate + \" AND epoch <= \" + epoch ;\n//return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 355.25,
+        "y": 901,
+        "wires": [
+            [
+                "388e08195c4da5c2"
+            ]
+        ]
+    },
+    {
+        "id": "388e08195c4da5c2",
+        "type": "sqlite",
+        "z": "1966cee03176d826",
+        "mydb": "ab71b39ac62e3d3f",
+        "sql": "",
+        "name": "DB",
+        "x": 501.25,
+        "y": 902,
+        "wires": [
+            [
+                "99582d358a6984fb"
+            ]
+        ]
+    },
+    {
+        "id": "e40c98d5a8d24b25",
+        "type": "ui_chart",
+        "z": "1966cee03176d826",
+        "name": "Chart",
+        "group": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "%a %H:%M",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "604800",
+        "cutout": "",
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 848.25,
+        "y": 1002,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35090db7361d2431",
+        "type": "function",
+        "z": "1966cee03176d826",
+        "name": "Prep",
+        "func": "var msg2 = [];\n\n// this is the logic when there are multiple data sets are received\nfor (var i=0; i<msg.payload.length; i++) {\n    var output = [];\n    for (var j=0; j<msg.payload[i].length; j++) {\n        output.push([msg.payload[i][j].epoch, msg.payload[i][j].value]);\n    }\n    msg2.push({ key: msg.payload[i][0].device+\"/\"+msg.payload[i][0].sensor, values : output});\n    //msg2.push({ key: \"test\", values : output});\n}\n\nmsg.payload=msg2;\n//msg.payload = [ { key: \"Power\", values : output} ];\n//msg.topic = \"Power\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 832.25,
+        "y": 904,
+        "wires": [
+            [
+                "e40c98d5a8d24b25"
+            ]
+        ]
+    },
+    {
+        "id": "30524ec0b76b1429",
+        "type": "inject",
+        "z": "1966cee03176d826",
+        "name": "Reset chart",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190.25,
+        "y": 1024,
+        "wires": [
+            [
+                "7065576b66b4994e"
+            ]
+        ]
+    },
+    {
+        "id": "7065576b66b4994e",
+        "type": "function",
+        "z": "1966cee03176d826",
+        "name": "Empty payload",
+        "func": "msg.payload = [];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 518.25,
+        "y": 1023,
+        "wires": [
+            [
+                "e40c98d5a8d24b25"
+            ]
+        ]
+    },
+    {
+        "id": "cd59eeaf1e401426",
+        "type": "ui_form",
+        "z": "1966cee03176d826",
+        "name": "Data points",
+        "label": "",
+        "group": "1e17cd0b.862863",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Period: today",
+                "value": "period/today",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Period: yesterday",
+                "value": "period/yesterday",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Period: this week",
+                "value": "period/week",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Miflora temperature",
+                "value": "miflora/temp",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Miflora battery level",
+                "value": "miflora/battery",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Miflora sunlight",
+                "value": "miflora/sunlight",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Miflora soil moisture",
+                "value": "miflora/moisture",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Miflora soil fertility",
+                "value": "miflora/fertility",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Solar power",
+                "value": "growatt/power",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            },
+            {
+                "label": "Solar voltage",
+                "value": "growatt/voltage",
+                "type": "checkbox",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "period/today": false,
+            "period/yesterday": false,
+            "period/week": false,
+            "miflora/temp": false,
+            "miflora/battery": false,
+            "miflora/sunlight": false,
+            "miflora/moisture": false,
+            "miflora/fertility": false,
+            "growatt/power": false,
+            "growatt/voltage": false
+        },
+        "payload": "",
+        "submit": "",
+        "cancel": "",
+        "topic": "",
+        "topicType": "str",
+        "splitLayout": false,
+        "className": "",
+        "x": 160.25,
+        "y": 848,
+        "wires": [
+            [
+                "bf31282cf5beb2bd"
+            ]
+        ]
+    },
+    {
+        "id": "99582d358a6984fb",
+        "type": "join",
+        "z": "1966cee03176d826",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 643.25,
+        "y": 902,
+        "wires": [
+            [
+                "35090db7361d2431"
+            ]
+        ]
+    },
+    {
+        "id": "0857f36b07724f7d",
+        "type": "comment",
+        "z": "1966cee03176d826",
+        "name": "Dynamic report example",
+        "info": "This flow can generate graph based from data stored\nin the database and display multiple data points\nin a single graph.",
+        "x": 192.75,
+        "y": 793.5,
+        "wires": []
+    }
+]
