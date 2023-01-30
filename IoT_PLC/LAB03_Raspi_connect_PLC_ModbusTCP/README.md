@@ -1,20 +1,19 @@
-# Lab03: การเชื่อมต่อ PLC กับ rapberrypi ผ่าน modbus TCP/IP 
+# Lab03:**Ras****berry Pi** **connect** ******PLC** **via** **ModbusTCP** 
 
-# **Contents**
-- What is Modbus Protocol 
-- What is [RaspberryPiOS](https://docs.aic-eec.com/computer-operation-system/development-on-crowpi)
-- LAB
+[on Dropbox](https://www.dropbox.com/scl/fi/0ew1hpmunq8p0qcrpgf4d/Lab03Rasberry-Pi-connect-PLC-via-ModbusTCP.paper?dl=0&rlkey=r5afytfbb18pbqrfi3e0v06wj)
 
 
-
-
-## **วัตถุประสงค์**
+# **Key concept**
 1. เพื่อเรียนรู้วิธีการตั้งค่าโปรแกรม Gxwork3 เพื่อตั้งค่า PLC Mitsubishi fx5u ใช้งาน Modbus TCP/IP 
 2. เพื่อให้ผู้เรียนสามารถเข้าใช้งานบอร์ด RaspberryPi ผ่านการแสดงผลบนคอมพิวเตอร์ได้
-## **อุปกรณ์ประกอบการทดลอง**
-1. คอมพิวเตอร์
-2. PLC
-3. RespberryPi
+# **Outline**
+- What is Modbus Protocol 
+- What is [RaspberryPiOS](https://docs.aic-eec.com/computer-operation-system/development-on-crowpi)
+- [ตั้งค่า PLC ใช้งาน Modbus TCP/IP Protocol](https://www.dropbox.com/scl/fi/0ew1hpmunq8p0qcrpgf4d/Lab03_Rasberry-Pi-connect-PLC-via-ModbusTCP.paper?dl=0&rlkey=r5afytfbb18pbqrfi3e0v06wj#:uid=799688362259329119569511&h2=%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2-PLC-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-Modbus-TCP/) 
+- [ตั้งค่าการ Remote ผ่านวิธี Secure Shell (SSH) เข้าไปควบคุม Raspberry Pi](https://www.dropbox.com/scl/fi/0ew1hpmunq8p0qcrpgf4d/Lab03_Rasberry-Pi-connect-PLC-via-ModbusTCP.paper?dl=0&rlkey=r5afytfbb18pbqrfi3e0v06wj#:uid=244242011665444498576762&h2=%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3-Remote-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5-Sec)
+- [ตั้งค่าการ Remote ผ่านวิธี VNC Viewer เข้าไปควบคุม Raspberry Pi](https://www.dropbox.com/scl/fi/0ew1hpmunq8p0qcrpgf4d/Lab03_Rasberry-Pi-connect-PLC-via-ModbusTCP.paper?dl=0&rlkey=r5afytfbb18pbqrfi3e0v06wj#:uid=757915225696586707054335&h2=%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3-Remote-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5-VNC)
+
+
 # **ตั้งค่า PLC ใช้งาน Modbus TCP/IP Protocol** 
 
 1. ตั้งค่าโปรแกรมให้ PLC หน้าที่เป็น Modbus TCP/IP server
@@ -61,7 +60,6 @@
 Ref. [Remote to Raspberry Pi](https://docs.aic-eec.com/computer-operation-system/development-on-crowpi/remote-to-raspberry-pi) 
 ***สำหรับผู้ที่ใช้ respberry Pi ที่ไม่ต้องการต่อแป้นพิมพ์หรือจอเพิ่ม
 
-## 
 1. ค้นหา IP Address ของ Raspberry Pi
 
       หลังจากเปิด RaspberryPi และ เชื่อมต่อสายแลนด์กับ RaspberryPi ที่อยู่ในวงเดียวกันกับ PLC ของเรา เนื่องจาก Raspberry Pi OS ที่ใช้ได้ตั้งค่าเริ่มต้น รองรับ multicast Domain Name System (mDNS) โดยตั้งค่าเริ่มต้น hostname ว่า “raspberrypi” ไว้ก่อนที่ flash OS ลง SD card ดังนั้นเราสามารถ ทดสอบการเชื่อมต่อ network ระหว่าง PC กับ RaspberryPi ด้วยชื่อ hostneme ได้
