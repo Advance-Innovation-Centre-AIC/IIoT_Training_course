@@ -10,10 +10,9 @@
 # **Outline**
 - What is Modbus Protocol 
 - What is [RaspberryPiOS](https://docs.aic-eec.com/computer-operation-system/development-on-crowpi)
-- [ตั้งค่า PLC ใช้งาน Modbus TCP/IP Protocol](https://www.dropbox.com/scl/fi/0ew1hpmunq8p0qcrpgf4d/Lab03_Rasberry-Pi-connect-PLC-via-ModbusTCP.paper?dl=0&rlkey=r5afytfbb18pbqrfi3e0v06wj#:uid=799688362259329119569511&h2=%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2-PLC-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-Modbus-TCP/) 
-- [ตั้งค่าการ Remote ผ่านวิธี Secure Shell (SSH) เข้าไปควบคุม Raspberry Pi](https://www.dropbox.com/scl/fi/0ew1hpmunq8p0qcrpgf4d/Lab03_Rasberry-Pi-connect-PLC-via-ModbusTCP.paper?dl=0&rlkey=r5afytfbb18pbqrfi3e0v06wj#:uid=244242011665444498576762&h2=%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3-Remote-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5-Sec)
-- [ตั้งค่าการ Remote ผ่านวิธี VNC Viewer เข้าไปควบคุม Raspberry Pi](https://www.dropbox.com/scl/fi/0ew1hpmunq8p0qcrpgf4d/Lab03_Rasberry-Pi-connect-PLC-via-ModbusTCP.paper?dl=0&rlkey=r5afytfbb18pbqrfi3e0v06wj#:uid=757915225696586707054335&h2=%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3-Remote-%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5-VNC)
-
+- ตั้งค่า PLC ใช้งาน Modbus TCP/IP Protocol
+- ตั้งค่าการ Remote ผ่านวิธี Secure Shell (SSH) เข้าไปควบคุม Raspberry 
+- ตั้งค่าการ Remote ผ่านวิธี VNC Viewer เข้าไปควบคุม Raspberry Pi
 
 
 # **ตั้งค่า PLC ใช้งาน Modbus TCP/IP Protocol** 
