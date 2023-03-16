@@ -16,15 +16,3 @@
 5. [LAB05_Basic_NodeRed_Dashboard](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard)
 6. [LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP)
 
-
-# **Hardware**
-1. Mitsubishi PLC รุ่น Fx5u 
-2. Raspberry Pi 
-3. Ethernet Cable
-4. Computer PC RAM > 8GB
-
-
-# **Software**
-1. GXwork3 tool
-2. VNC viewer
-
