@@ -1,9 +1,7 @@
-# Modbus Protocol
-
 # **MODBUS Protocol**
 
-         Modbus protocol เป็นโปรโตคอลสำหรับส่งข้อความที่อยู่ในชั้น Application layer ตามมาตาฐาน OSI model ซึ่งเป็นการสื่อสารระหว่าง client/server ของอุปกรณ์ที่ต้องการเชื่อมต่อบนบัส หรือ network ต่างประเภทกัน [Ref. [www.modbus.org](https://modbus.org/docs/Modbus_Application_Protocol_V1_1b3.pdf)]
-         Modbus Protocol แบ่งการเรียกการสื่อสารตามรูปแบบมาตรฐานการสื่อสารเป็นกลุ่มใหญ่ได้ 2 แบบ คือ การสื่อสารผ่าน มาตรฐานการสื่อสาร  RS232 กับ RS485 ( EIA/TIA-232-E, TIA-485-A) เรียกว่า ModbusRTU/ASCII (Remote Terminal Unit) และ การสื่อสารผ่าน Ethernet หรือสายแลนด์ (มาตรฐานการสื่อสาร Ethernet/802.3) เรียกว่า Modbus TCP/IP 
+ Modbus protocol เป็นโปรโตคอลสำหรับส่งข้อความที่อยู่ในชั้น Application layer ตามมาตาฐาน OSI model ซึ่งเป็นการสื่อสารระหว่าง client/server ของอุปกรณ์ที่ต้องการเชื่อมต่อบนบัส หรือ network ต่างประเภทกัน [Ref. [www.modbus.org](https://modbus.org/docs/Modbus_Application_Protocol_V1_1b3.pdf)]
+Modbus Protocol แบ่งการเรียกการสื่อสารตามรูปแบบมาตรฐานการสื่อสารเป็นกลุ่มใหญ่ได้ 2 แบบ คือ การสื่อสารผ่าน มาตรฐานการสื่อสาร  RS232 กับ RS485 ( EIA/TIA-232-E, TIA-485-A) เรียกว่า ModbusRTU/ASCII (Remote Terminal Unit) และ การสื่อสารผ่าน Ethernet หรือสายแลนด์ (มาตรฐานการสื่อสาร Ethernet/802.3) เรียกว่า Modbus TCP/IP 
 
 ## **รูปแบบการเก็บข้อมูล Modbus**
 
@@ -129,9 +127,6 @@ Temperature and humidity transmitter SHT20 sensor Modbus RS485 Datasheet →[lin
 
 
 https://www.youtube.com/watch?v=W85ZBtQ-t-8&&list=WL&index=2
-
-
-
 
 https://www.nectec.or.th/news/news-public-document/modbus-protocol.html
 
