@@ -57,6 +57,7 @@ Modbus Protocol แบ่งการเรียกการสื่อสา�
 Master ส่งคำสั่งสำหรับอ่านข้อมูลประเภท coil จาก slave ที่ ID เท่ากับ 1 และ ip address 127.0.0.1 port 502
 Dowload โปแกรม →[link](https://www.modbustools.com/download.html) 
    → [link2](https://drive.google.com/drive/folders/1XdAiUCcNqe1Bkg2pbt6MFQ_ISRF8uysM?usp=share_link)
+
 **Setup Modbus slave (server) tool** 
 
 1. เปิดโปรแกรม Modbus slave 
