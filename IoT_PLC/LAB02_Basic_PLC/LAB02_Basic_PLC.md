@@ -1,5 +1,10 @@
 # LAB02: การเขียนโปรแกรม PLC เบื้องต้น
 
+ [PLC คืออะไร](https://docs.google.com/presentation/d/1PX0F2m76wwJRyviXicjHhbFrNJOHRG3p/edit?usp=sharing&ouid=112123354426746955459&rtpof=true&sd=true) 
+
+[วิธีการเขียนโปรแกรม PLC เบื้องต้น](https://drive.google.com/file/d/1XGtkPk0SnKXdOdqEj90YgZ4AXmq33e9B/view?usp=sharing)
+
+
 # **LAB2-1: ทดลองเขียนโปรแกรม PLC รับค่าอินพุตข้อมูลประเภท Digital**
 
 ทดลองเขียน PLC เพื่ออ่านค่าสถานะการทำงานหรือหยุดทำงานของแขนกล
