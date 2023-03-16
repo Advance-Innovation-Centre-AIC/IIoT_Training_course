@@ -1,14 +1,13 @@
 # LAB01-Pre: Setup PLC workspace 
 
-[doc. on Dropdox](https://www.dropbox.com/scl/fi/tx4u76c4wqo4nnonyv5dg/LAB01-Pre-Setup-PLC-workspace.paper?dl=0&rlkey=06ibfmhjylf3h16eup1e2s0dj)
-
 # **Outline**
-Step1: Install GXWork3
 
-Step2: Connect PLC with GXwork3 
+[Step1: Install GXWork3](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/LAB01_Pre_Setup#step-1-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-gx-work3)
+
+[Step2: Connect PLC with GXwork3](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/LAB01_Pre_Setup#step-1-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%82%E0%B8%9B%E0%B8%A3%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1-gx-work3) 
 
 
-# **Step** ******1****: ติดตั้งโปรแกรม** **GX** **W****ork****3**
+# **Step1: ติดตั้งโปรแกรม GXWork3**
 1. Download Gxwork3 >> [link](https://drive.google.com/file/d/1olgX69E1S-ZEzhd0WcJog4AseTfC6inn/view?usp=share_link)
 2. เข้าไปที่ โฟเดอร์ Disk1 
 3. คลิ๊กไฟล์  setup.exe 
@@ -48,7 +47,7 @@ Step2: Connect PLC with GXwork3
 
 
 9. เลือกที่อยุ่ในการติดตั้งโปรแกรมในคอมพิวเตอร์ของคุณ ในที่นี้ใช้ตำแหน่งตามที่โปรแกรมเลือกให้ 
-10.  คลิ๊ก **Next** 
+10. คลิ๊ก **Next** 
 
 
 
@@ -65,13 +64,13 @@ Step2: Connect PLC with GXwork3
 
 
 
-12. คลิ๊ก **Install** ****เมื่อหน้าต่างถามว่าต้องการติดตั้ง device software
+12. คลิ๊ก **Install** เมื่อหน้าต่างถามว่าต้องการติดตั้ง device software
 
 
 13. คลิ๊กที่ หน้า GX-Works3 สำหรับเลือกให้สร้าง shortcut ไว้ที่หน้า dasktop หลังจากนั้นไปทำในขั้นตอนต่อไปสำหรับเริ่มต้นใช้งาน
 
 
-# **Step** ******2: Connect PLC with GXwork3**
+# **Step2: Connect PLC with GXwork3**
 
 
 1. เปิดโปรแกรม GXwork3
