@@ -10,7 +10,7 @@ What is Modbus Protocol >> [link](https://github.com/Advance-Innovation-Centre-A
 # **Outline**
  
 1. [ตั้งค่า PLC ใช้งาน Modbus TCP/IP Protocol](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/LAB03_Raspi_connect_PLC_ModbusTCP#%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2-plc-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-modbus-tcpip-protocol)
-2. [การตั้งค่า Network ของ RaspberryPi]()
+2. [การตั้งค่า Network ของ RaspberryPi](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/LAB03_Raspi_connect_PLC_ModbusTCP#%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2-network-%E0%B8%82%E0%B8%AD%E0%B8%87-raspberrypi)
 
 
 # **ตั้งค่า PLC ใช้งาน Modbus TCP/IP Protocol** 
@@ -72,10 +72,10 @@ RaspberryPi จะสามารถเชื่อมต่อกับ PLC ไ
 บน Linux ถ้าเราใช้ การ ping แบบใช้ hostname เราจะได้ ip address ของ Raspberry Pi มาด้วย 
 
 ```
-    // hostname ของ raspberry Pi 
+    #hostname ของ raspberry Pi 
     ping raspberrypi.local
-    // or ping <ip appdress of respberrypi>
-    ping 192.168.3.101
+    #or ping <ip appdress of respberrypi>
+    #ping 192.168.3.101
 ```
 
 
@@ -86,10 +86,10 @@ RaspberryPi จะสามารถเชื่อมต่อกับ PLC ไ
 2. ทดลอง remote เข้า Raspberry Pi ด้วยวิธีการ Secure Shell (SSH) โดยพิมพ์คำสั่ง ssh ดังนี้
 
 ```
-    // hostname ของ raspberry Pi 
+    #hostname ของ raspberry Pi 
     ssh pi@raspberrypi.local
-    // or ping <ip appdress of respberrypi>
-    ssh pi@192.168.3.101
+    #or ping <ip appdress of respberrypi>
+    #ssh pi@192.168.3.101
 ```
 
 
