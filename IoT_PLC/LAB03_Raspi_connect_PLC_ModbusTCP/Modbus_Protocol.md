@@ -119,11 +119,11 @@ Download โปรแกรม [Modbus Poll และ Modbus slave](https://www.
 # **ตัวอย่างการใช้งาน Modbus RTU**
  ตัวอย่างการทดลองใช้ Modbus RTU ในการอ่านข้อมูล sensor วัดอุณหภูมิและความชื้น ซึ่งจัดอยู่ในข้อมูลประเภท Analog โดยใช้ โปรแกรม simmulator 
 
-**ข้อมูล Sensor (Slave)**
+## **ข้อมูล Sensor (Slave)**
 Temperature and humidity transmitter SHT20 sensor Modbus RS485 Datasheet →[link](https://drive.google.com/file/d/17E3FKH77xNIqxdpTzDWW65fY6L36x7PP/view?usp=share_link) 
 
 
-**Setup Modbus Poll tool(Master)**  
+## **Setup Modbus Poll tool(Master)**  
 
 1. เปิดโปรแกรม Modbus Poll
 2. ไปที่ setup >> Read/Write Definition
