@@ -3,8 +3,8 @@ Program
 Node-red คืออะไร ? 
 
 # **Outline** 
-1. [Get_started_Node-red]()
-2. [LAB_NodeRed_read_PLC_ModbusTCP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/e67330ea80db871cdabb06afc079c1289261a772/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md)
+1. [Get_started_Node-red](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/249c80854f3fbcca27e2a38c998869e51c8477b1/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/Get_started_Node-red.md)
+2. [LAB_NodeRed_read_PLC_ModbusTCP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/249c80854f3fbcca27e2a38c998869e51c8477b1/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md)
 
 
 # **Objectives**

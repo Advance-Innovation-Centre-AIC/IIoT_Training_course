@@ -8,7 +8,7 @@ Outline
 
 # **ขั้นตอนการทดลอง**
 
-## การตั้งค่า โปรแกรม Sim Slave
+## การตั้งค่า โปรแกรม M
 
    ในการทดลองนี้เรากำหนดให้ค่า slave device มีการตั้งค่าให้ส่งข้อมูล ผ่าน Modbus protocol ดังนี้
 Connection: Modbus TCP/IP
