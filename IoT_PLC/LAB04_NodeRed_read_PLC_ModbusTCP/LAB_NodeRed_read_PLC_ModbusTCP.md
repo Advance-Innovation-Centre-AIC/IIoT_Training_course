@@ -1,25 +1,23 @@
-Outline
-- Overview
-- ขั้นตอนการทดลอง
 
-# **Overview**
-
-???/
+ในการทดลองนี้เรากำหนดให้ค่า slave device มีการตั้งค่าให้ส่งข้อมูล ผ่าน Modbus protocol ดังนี้
+Master ส่งคำสั่งสำหรับอ่านข้อมูลประเภท coil จาก slave ที่ ID เท่ากับ 1 และ ip address 127.0.0.1 port 502
 
 # **ขั้นตอนการทดลอง**
 
-## การตั้งค่า โปรแกรม M
+## **Setup Modbus slave (server) tool**
+1. เปิดโปรแกรม Modbus slave
 
-   ในการทดลองนี้เรากำหนดให้ค่า slave device มีการตั้งค่าให้ส่งข้อมูล ผ่าน Modbus protocol ดังนี้
-Connection: Modbus TCP/IP
-IP address: 127.0.0.1 
-port: 502
-Set-up
-Slave ID: 1
-Start Address: 1
-Quantity: 2
-function code: 01
-
+2. ไปที่ setup >> Read/Write Definition
+                  
+                  >> ตั้งค่า Slave ID เท่ากับ 1 
+                  
+                  >> Function code เลือก 01 
+                  
+                  >> ตั้งค่า Address เริ่มต้นที่ต้องการอ่าน เท่ากับ 1 
+                  
+                  >> กำหนด Quantity หรือจำนวน address ที่ต้องการอ่าน เท่ากับ 2 
+                  
+                  และ คลิ๊ก OK
 
 ![รูปภาพ: ตัวอย่างการใช้งาน โปรแกรม Sim Slave](https://paper-attachments.dropboxusercontent.com/s_EAE347BCB7B527CA2156619BD46DF2D9708CD446BDA75189903AABB7E89CF529_1668748693706_image.png)
 
@@ -27,6 +25,11 @@ function code: 01
 
 
  จากที่เราได้ติดตั้ง modbus module เราสามารถใช้ Modbus-read node ในการอ่านค่า Modbus protocol โดยสามารถอ่านได้ทั้ง Modbus RTU และ Modbus TCP/IP ขึ้นอยู่กับการตั้งค่า ในที่นี้เราจะใช้ในการอ่านค่าแบบ modbus TCP/IP
+
+
+
+
+
 
 1. ติดตั้ง Modbus modules Node-Red
  - ไปที่ Manage palette >>Install>> search modules >> พิมพ์ “Modbus” >>node-red-contrib-modbus >> install
