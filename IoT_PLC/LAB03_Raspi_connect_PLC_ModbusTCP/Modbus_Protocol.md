@@ -68,19 +68,16 @@ Download โปรแกรม [Modbus Poll และ Modbus slave](https://www.
 - เป็นข้อมูล 0 1 และส่งข้อมูลที่อนุญาติให้อ่านได้
 - Slave ID   เท่ากับ 1
 - IP Address เท่ากับ 127.0.0.1 port 502
-
 1. เปิดโปรแกรม Modbus slave 
 2. ไปที่ setup >> Read/Write Definition
 
-                >> ตั้งค่า Slave ID เท่ากับ 1 
+      - ตั้งค่า Slave ID เท่ากับ 1 
 
-                >> Function code เลือก 01 Read Coils(0x)
+      - Function code เลือก 01 Read Coils(0x)
 
-                >> ตั้งค่า Address เริ่มต้นที่ต้องการส่ง เท่ากับ 1
+      - ตั้งค่า Address เริ่มต้นที่ต้องการส่ง เท่ากับ 1
 
-                >> กำหนด Quantity หรือจำนวน address ที่ต้องการอ่าน เท่ากับ 2 และ 
-                
-                คลิ๊ก OK 
+      - กำหนด Quantity หรือจำนวน address ที่ต้องการอ่าน เท่ากับ 2 และ คลิ๊ก OK  
                         
 ![Figure: setup data](https://paper-attachments.dropboxusercontent.com/s_67EE1652549C1B0192A8D98C8B3D52FDA6C5CDF699E58B031CADEB77267F2935_1669883773383_image.png)
 
@@ -104,16 +101,14 @@ Download โปรแกรม [Modbus Poll และ Modbus slave](https://www.
 
 1. เปิดโปรแกรม Modbus Poll
 2. ไปที่ setup >> Read/Write Definition
-                  
-                  >> ตั้งค่า Slave ID เท่ากับ 1 
-                  
-                  >> Function code เลือก 01 Read Coils(0x) 
-                  
-                  >> ตั้งค่า Address เริ่มต้นที่ต้องการอ่าน เท่ากับ 1 
-                  
-                  >> กำหนด Quantity หรือจำนวน address ที่ต้องการอ่าน เท่ากับ 2 
-                  
-                  และ คลิ๊ก OK
+                
+    - ตั้งค่า Slave ID เท่ากับ 1 
+    
+    - Function code เลือก 01 Read Coils(0x) 
+    
+    - ตั้งค่า Address เริ่มต้นที่ต้องการอ่าน เท่ากับ 1 
+    
+    - กำหนด Quantity หรือจำนวน address ที่ต้องการอ่าน เท่ากับ 2 และ คลิ๊ก OK
                 
 ![Figure: setup data](https://paper-attachments.dropboxusercontent.com/s_67EE1652549C1B0192A8D98C8B3D52FDA6C5CDF699E58B031CADEB77267F2935_1669882717421_image.png)
 
@@ -140,15 +135,13 @@ Temperature and humidity transmitter SHT20 sensor Modbus RS485 Datasheet →[lin
 1. เปิดโปรแกรม Modbus Poll
 2. ไปที่ setup >> Read/Write Definition
                   
-                  >> ตั้งค่า Slave ID เท่ากับ 1 
-                  
-                  >> Function code เลือก 03 Read Holding Registers(4x) 
-                  
-                  >> ตั้งค่า Address เริ่มต้นที่ต้องการอ่าน เท่ากับ 1 
-                  
-                  >> กำหนด Quantity หรือจำนวน address ที่ต้องการอ่าน เท่ากับ 2 
-                  
-                  และ คลิ๊ก OK
+    - ตั้งค่า Slave ID เท่ากับ 1 
+                
+    - Function code เลือก 03 Read Holding Registers(4x) 
+                
+    - ตั้งค่า Address เริ่มต้นที่ต้องการอ่าน เท่ากับ 1 
+                
+    - กำหนด Quantity หรือจำนวน address ที่ต้องการอ่าน เท่ากับ 2 และ คลิ๊ก OK
 
 
 ![Figure: setup data](https://paper-attachments.dropboxusercontent.com/s_67EE1652549C1B0192A8D98C8B3D52FDA6C5CDF699E58B031CADEB77267F2935_1669885479143_image.png)
