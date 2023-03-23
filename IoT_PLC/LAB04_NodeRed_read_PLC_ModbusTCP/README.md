@@ -1,4 +1,3 @@
-Program
 # **LAB04 NodeRed read data PLC via ModbusTCP**
 [Node-red](https://nodered.org/) เป็นเครื่องมือสำรับเขียนโปรแกรม สำหรับทำงานร่วมกับ Hardware, API หรือทำงานร่วมกับระบบ IoT ซึ่งมีเบราว์เซอร์ในการเขียนโปรแกรมและแสดงผล เราสามารถใช้ Node-red เขียนโปรแกรมในการอ่านค่าหรือควบคุม PLC โดยใช้การสื่อสารผ่าน Modbus TCP 
 
