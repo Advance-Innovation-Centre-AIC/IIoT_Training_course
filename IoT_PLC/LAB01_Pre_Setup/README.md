@@ -10,10 +10,10 @@
 # **Step1: ติดตั้งโปรแกรม GXWork3**
 1. Download Gxwork3 >> [link](https://drive.google.com/file/d/1olgX69E1S-ZEzhd0WcJog4AseTfC6inn/view?usp=share_link)
 2. เข้าไปที่ โฟเดอร์ Disk1 
-3. คลิ๊กไฟล์  setup.exe 
+3. คลิ๊กไฟล์  setup.exe
 
 
-![Fig: setup.exe file](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/LAB01_Pre_Setup/pictures/image1.png)
+![Fig: setup.exe file](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/pictures/s_1E2F6E44CDC583AF61E8EF2E284ED2600A5427B68F401AE7B32CFF12E3C7F5E9_1674795170195_image.png)
 
 
 
@@ -21,7 +21,7 @@
 3. คลิ๊ก  **Next**
 
 
-![Fig: GXWork3 Setup](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/LAB01_Pre_Setup/pictures/image2.png)
+![Fig: GXWork3 Setup](ttps://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/pictures/s_1E2F6E44CDC583AF61E8EF2E284ED2600A5427B68F401AE7B32CFF12E3C7F5E9_1674801486203_Screenshot+2023-01-27+133459.png)
 
 
 
@@ -35,7 +35,7 @@
 6. เมื่อใส่ข้อมูลครบแล้วให้คลิ๊ก  **Next**
 
 
-![Fig: User Information](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/LAB01_Pre_Setup/pictures/image3.png)
+![Fig: User Information](https://paper-attachments.dropboxusercontent.com/s_1E2F6E44CDC583AF61E8EF2E284ED2600A5427B68F401AE7B32CFF12E3C7F5E9_1674802206071_Screenshot+2023-01-27+134840.png)
 
 
 
