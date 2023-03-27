@@ -1,6 +1,6 @@
 # Outline
 - [LAB1: Use Text node in Node-red Display data Modbus TCP/IP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_NodeRed_Dashboard_With_PLC.md#lab1-use-text-node-in-node-red-display-data-modbus-tcpip-)
-- [LAB2: LAB1: Use Chart node in Node-red Display data Modbus TCP/IP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_NodeRed_Dashboard_With_PLC.md#lab2-lab1-use-chart-node-in-node-red-display-data-modbus-tcpip)
+- [LAB2:Use Chart node in Node-red Display data Modbus TCP/IP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_NodeRed_Dashboard_With_PLC.md#lab2-lab1-use-chart-node-in-node-red-display-data-modbus-tcpip)
 - [LAB3: Use function node Display 2 outputs on Chart ](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_NodeRed_Dashboard_With_PLC.md#lab3-use-function-node-display-2-outputs-on-chart)
 
 
