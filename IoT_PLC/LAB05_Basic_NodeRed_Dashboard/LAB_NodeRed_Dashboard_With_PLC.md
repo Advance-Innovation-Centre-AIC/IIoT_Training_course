@@ -1,10 +1,10 @@
 # Outline
-- [LAB1: Use Text node in Node-red Display data Modbus TCP/IP]()
-- [LAB2: LAB1: Use Chart node in Node-red Display data Modbus TCP/IP]()
-- [LAB3: Use function node Display 2 outputs on Chart ]()
+- [LAB1: Use Text node in Node-red Display data Modbus TCP/IP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_NodeRed_Dashboard_With_PLC.md#lab1-use-text-node-in-node-red-display-data-modbus-tcpip-)
+- [LAB2: LAB1: Use Chart node in Node-red Display data Modbus TCP/IP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_NodeRed_Dashboard_With_PLC.md#lab2-lab1-use-chart-node-in-node-red-display-data-modbus-tcpip)
+- [LAB3: Use function node Display 2 outputs on Chart ](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_NodeRed_Dashboard_With_PLC.md#lab3-use-function-node-display-2-outputs-on-chart)
 
 
-# **LAB1: Use Text node in Node-red Display data Modbus TCP/IP **
+# LAB1: Use Text node in Node-red Display data Modbus TCP/IP
  จากการทดลองเขียนโปรแกรม node-red อ่านค่า Modbus เราสามารถนำค่าที่อ่านได้ไปแสดงโดยใช้ node dashboard ในการแสดงผลแบบต่าง ๆ ได้ ในที่นี้จะใช้ text node สำหรับใช้ แสดงข้อมูลที่เป็นข้อความ
 1. ทำการสร้างโปรแกรม node-red สำหรับอ่านค่า PLC โดยตั้งค่าตามขั้นตอน -> [LAB: Node-red read data from PLC via ModbusTCP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-plc-via-modbustcp)
 
@@ -70,7 +70,7 @@
 
 ----------
 
-# **LAB2: LAB1: Use Chart node in Node-red Display data Modbus TCP/IP**
+# LAB2: LAB1: Use Chart node in Node-red Display data Modbus TCP/IP
 
 จากการทดลองเขียนโปรแกรม node-red อ่านค่า Modbus เราสามารถนำค่าที่อ่านได้ไปแสดงโดยใช้ 
 node dashboard ในการแสดงผลแบบต่าง ๆ ได้ ในที่นี้จะใช้ chart node สำหรับใช้ แสดงข้อมูลเทียบกับเวลา
@@ -104,7 +104,7 @@ node dashboard ในการแสดงผลแบบต่าง ๆ ได
 # LAB3: Use function node Display 2 outputs on Chart 
 
 
-
+?????
 
 
 
