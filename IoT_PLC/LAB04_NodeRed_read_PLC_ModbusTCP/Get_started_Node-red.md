@@ -1,8 +1,8 @@
  # **Outline**
 
-- [ติดตั้ง  Node-red บน Windows]()
+- [ติดตั้ง  Node-red บน Windows](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/249c80854f3fbcca27e2a38c998869e51c8477b1/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/Get_started_Node-red.md#%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-node-red-%E0%B8%9A%E0%B8%99-windows)
 
-- [ติดตั้ง  Node-red บน RaspberryPi]() 
+- [ติดตั้ง  Node-red บน RaspberryPi](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/249c80854f3fbcca27e2a38c998869e51c8477b1/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/Get_started_Node-red.md#%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2-node-red-%E0%B8%9A%E0%B8%99-raspberrypi) 
 
 
 
