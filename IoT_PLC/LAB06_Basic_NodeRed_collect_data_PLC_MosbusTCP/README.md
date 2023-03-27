@@ -7,7 +7,7 @@
 
 # **Outline**
  
-1. [LAB Basic Data logger in Node-red]()
+1. [LAB Basic Data logger in Node-red](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/7a7ac1e36c6fac50b52682e8af2367e2f677025c/IoT_PLC/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP/LAB_Basic_Data_logger_in_Node-red.md)
 2. [LAB Basic Node-Red collect data of PLC MosbusTCP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/4c73a9db7f9e6b958d94234e2710c6da62b0d377/IoT_PLC/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP.md)
 
 

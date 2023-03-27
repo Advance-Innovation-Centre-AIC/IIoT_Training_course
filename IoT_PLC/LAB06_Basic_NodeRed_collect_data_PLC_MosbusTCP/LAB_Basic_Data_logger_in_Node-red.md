@@ -1,5 +1,9 @@
-ข้อมูลเพิ่มเติมเรื่อง Data logger >> [link]() 
-ข้อมูลเพิ่มเติมเรื่อง การเขียน Function node >> [link]()
+# Outline
+- [LAB 1: Create and Write csv file without header](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP/LAB_Basic_Data_logger_in_Node-red.md#lab-1-create-and-write-csv-file-without-header)
+- [LAB 2: Create and Add header in CSV file](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP/LAB_Basic_Data_logger_in_Node-red.md#lab-2-create-and-add-header-in-csv-file)
+- [LAB 3: Read CSV File](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP/LAB_Basic_Data_logger_in_Node-red.md#lab-3-read-csv-file)
+- [LAB4: Read CSV file and display on UI](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP/LAB_Basic_Data_logger_in_Node-red.md#lab4--read-csv-file-and-display-on-ui)
+
 
 # **LAB 1: Create and Write csv file without header**
 
