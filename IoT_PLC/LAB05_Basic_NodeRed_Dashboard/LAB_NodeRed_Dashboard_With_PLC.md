@@ -1,8 +1,10 @@
 # Outline
-- 
+- [LAB1: Use Text node in Node-red Display data Modbus TCP/IP]()
+- [LAB2: LAB1: Use Chart node in Node-red Display data Modbus TCP/IP]()
+- [LAB3: Use function node Display 2 outputs on Chart ]()
 
 
-# **LAB1: ทดลองเขียน Node-red แสดงค่าที่อ่านจาก Modbus TCP/IP ข้อมูล Digital บน Dashboard แบบข้อความ**
+# **LAB1: Use Text node in Node-red Display data Modbus TCP/IP **
  จากการทดลองเขียนโปรแกรม node-red อ่านค่า Modbus เราสามารถนำค่าที่อ่านได้ไปแสดงโดยใช้ node dashboard ในการแสดงผลแบบต่าง ๆ ได้ ในที่นี้จะใช้ text node สำหรับใช้ แสดงข้อมูลที่เป็นข้อความ
 1. ทำการสร้างโปรแกรม node-red สำหรับอ่านค่า PLC โดยตั้งค่าตามขั้นตอน -> [LAB: Node-red read data from PLC via ModbusTCP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-plc-via-modbustcp)
 
@@ -68,7 +70,7 @@
 
 ----------
 
-# **LAB2: ทดลองเขียน Node-red แสดงค่าที่อ่านจาก Modbus TCP/IP แสดงข้อมูล Analog บน Dashboard แบบ Chart**
+# **LAB2: LAB1: Use Chart node in Node-red Display data Modbus TCP/IP**
 
 จากการทดลองเขียนโปรแกรม node-red อ่านค่า Modbus เราสามารถนำค่าที่อ่านได้ไปแสดงโดยใช้ 
 node dashboard ในการแสดงผลแบบต่าง ๆ ได้ ในที่นี้จะใช้ chart node สำหรับใช้ แสดงข้อมูลเทียบกับเวลา
@@ -99,9 +101,9 @@ node dashboard ในการแสดงผลแบบต่าง ๆ ได
 
 ----------
 
-# LAB3: ทดลองเขียน function node แสดงส่งข้อมูล 2 outputs
+# LAB3: Use function node Display 2 outputs on Chart 
 
-**ตั้งค่า Chart node ให้แสดง 2 Output บน Chart  เดียวกัน**
+
 
 
 
