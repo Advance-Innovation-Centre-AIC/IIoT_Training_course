@@ -1,6 +1,6 @@
 # **Outline**
-- Setup Modbus slave tool (Slave)
-- Setup ModbusTCP in Node-red (Master)
+- [Setup Modbus slave tool (Slave)](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-modbustcp-slave-tool)
+- [Setup ModbusTCP in Node-red (Master)](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-plc-via-modbustcp)
 
 # **LAB: Node-red read data from ModbusTCP Slave tool**
 ในการทดลองนี้เรากำหนดให้ค่า slave device มีการตั้งค่าให้ส่งข้อมูล ผ่าน Modbus protocol ดังนี้
@@ -73,7 +73,7 @@ Master ส่งคำสั่งสำหรับอ่านข้อมู�
 5. คลิ๊กที่ Deploy เพื่อให้ Node-red ทำงานตามโปรแกรมที่ได้ตั้งค่าไว้
 
 
-## **บันทึกผลการทดลอง**
+**บันทึกผลการทดลอง**
 
 
 
@@ -85,8 +85,14 @@ Master ส่งคำสั่งสำหรับอ่านข้อมู�
 
 2. เขียนโปรแกรม Ledder ...
 ทดลองใช้ โปรแกรม Node-red ที่เขียนก่อนหน้า อ่านค่า PLC function code แบบ 01 read coil  ผ่าน Modbus TCP/IP*
-.....
 
+.....???......
+
+## **Setup ModbusTCP in Node-red (Master)**
+สามารถทดลองโดยการเขียนโปรแกรม Node-red ขั้นตอนแบบเดียวกันกับการทดลองก่อนหน้านี้->[link](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#setup-modbustcp-in-node-red-master)
+
+
+----------
 
 
 # **แบบฝึกหัด**
@@ -97,6 +103,8 @@ Master ส่งคำสั่งสำหรับอ่านข้อมู�
 ----------
 
 Ref. [Running Node-RED locally](https://nodered.org/docs/getting-started/local)
+
 Ref. [Running on Raspberry Pi](https://nodered.org/docs/getting-started/raspberrypi)
+
 Ref. [Running on Windows](https://nodered.org/docs/getting-started/windows)
 

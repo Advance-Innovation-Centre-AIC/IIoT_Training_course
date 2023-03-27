@@ -1,4 +1,4 @@
-# Lab05: การเขียน Node-red แสดงค่าที่อ่านจาก PLC แสดง
+# Outline
 
 
 # **ติดตั้ง modules Dashboard Node-Red** 

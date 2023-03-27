@@ -1,8 +1,8 @@
 # Outline
-- LAB1: Create tabs and Groups on Dashboard
-- LAB2: Use Switch node
-- LAB3: Use Text node
-- LAB4: Use Chart node
+- [LAB1: Create tabs and Groups on Dashboard](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/a90bfd2f05eeab45e689984dcc3be0b49cea229a/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_Basic_NodeRed_Dashboard.md#lab1-create-tabs-and-groups-on-dashboard)
+- [LAB2: Use Switch node](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/a90bfd2f05eeab45e689984dcc3be0b49cea229a/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_Basic_NodeRed_Dashboard.md#lab3-use-text-node)
+- [LAB3: Use Text node](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/a90bfd2f05eeab45e689984dcc3be0b49cea229a/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_Basic_NodeRed_Dashboard.md#lab3-use-text-node)
+- [LAB4: Use Chart node](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/a90bfd2f05eeab45e689984dcc3be0b49cea229a/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_Basic_NodeRed_Dashboard.md#lab4-use-chart-node)
 
 
 # **LAB1: Create tabs and Groups on Dashboard** 
