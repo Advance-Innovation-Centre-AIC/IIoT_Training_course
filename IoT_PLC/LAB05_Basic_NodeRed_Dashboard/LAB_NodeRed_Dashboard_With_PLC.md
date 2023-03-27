@@ -1,31 +1,25 @@
 # Outline
 
 
-# **ติดตั้ง modules Dashboard Node-Red** 
-1. ไปที่ Manage palette >>Install>> search modules >> พิมพ์ “Dashboard >> เลือก node-red-dashboard >> install
+
+# **LAB5-1: ทดลองเขียน Node-red แสดงค่าที่อ่านจาก Modbus TCP/IP ข้อมูล Digital บน Dashboard แบบข้อความ**
+ จากการทดลองเขียนโปรแกรม node-red อ่านค่า Modbus เราสามารถนำค่าที่อ่านได้ไปแสดงโดยใช้ node dashboard ในการแสดงผลแบบต่าง ๆ ได้ ในที่นี้จะใช้ text node สำหรับใช้ แสดงข้อมูลที่เป็นข้อความ
+1. ทำการสร้างโปรแกรม node-red สำหรับอ่านค่า PLC โดยตั้งค่าตามขั้นตอน [LAB: Node-red read data from PLC via ModbusTCP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-plc-via-modbustcp)
+
+2. ติดตั้ง modules Dashboard Node-Red 
+     - ไปที่ Manage palette >>Install>> search modules >> พิมพ์ “Dashboard >> เลือก node-red-dashboard >> install
 
 
 ![รูปภาพ: install node-red-dashboard](https://paper-attachments.dropboxusercontent.com/s_E1F4097AE86D6BC006BA3F68803FE6B26B34FEC61653B412A44A5B3B4028A764_1668755968870_file.png)
 
 
 
-2. หลังจากติดตั้งเสร็จ สังเกตแถบทางซ้ายมือ จะปรากฎ dashboard node สำหรับใช้งาน
+3. หลังจากติดตั้งเสร็จ สังเกตแถบทางซ้ายมือ จะปรากฎ dashboard node สำหรับใช้งาน
 
 
 ![รูปภาพ: dashboard node](https://paper-attachments.dropboxusercontent.com/s_E1F4097AE86D6BC006BA3F68803FE6B26B34FEC61653B412A44A5B3B4028A764_1668756487606_file.png)
 
 
-
-# **LAB5-1: ทดลองเขียน Node-red แสดงค่าที่อ่านจาก Modbus TCP/IP ข้อมูล Digital บน Dashboard แบบข้อความ**
-## **วัตถุประสงค์**
-1. เพื่อเรียนรู้วิธีเขียนโปรแกรม Node-red แสดงค่าที่อ่านจาก Modbus TCP/IP บน Dashboard แบบ ข้อความ
-## **อุปกรณ์ประกอบการทดลอง**
-1. คอมพิวเตอร์
-2. PLC
-3. Raspberry Pi
-## **ขั้นตอนการทดลอง**
-จากการทดลองเขียนโปรแกรม node-red อ่านค่า Modbus เราสามารถนำค่าที่อ่านได้ไปแสดงโดยใช้ node dashboard 
-ในการแสดงผลแบบต่าง ๆ ได้ ในที่นี้จะใช้ text node สำหรับใช้ แสดงข้อมูลที่เป็นข้อความ
 
 ![รูปภาพ: text node](https://paper-attachments.dropboxusercontent.com/s_E1F4097AE86D6BC006BA3F68803FE6B26B34FEC61653B412A44A5B3B4028A764_1668758369209_image.png)
 
