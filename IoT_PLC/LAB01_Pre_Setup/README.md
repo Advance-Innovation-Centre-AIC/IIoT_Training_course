@@ -13,7 +13,7 @@
 3. คลิ๊กไฟล์  setup.exe
 
 
-![Fig: setup.exe file](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/pictures/image1.png)
+![Fig: setup.exe file](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/f1579fd4d60c9a79a82ba88858290d4777650703/IoT_PLC/LAB01_Pre_Setup/pictures/image1.png)
 
 
 
@@ -21,7 +21,7 @@
 3. คลิ๊ก  **Next**
 
 
-![Fig: GXWork3 Setup](ttps://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/tree/main/IoT_PLC/pictures/image2.png)
+![Fig: GXWork3 Setup](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/f1579fd4d60c9a79a82ba88858290d4777650703/IoT_PLC/LAB01_Pre_Setup/pictures/image2.png)
 
 
 
