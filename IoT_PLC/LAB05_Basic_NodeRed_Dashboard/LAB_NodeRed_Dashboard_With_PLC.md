@@ -1,10 +1,10 @@
 # Outline
+- 
 
 
-
-# **LAB5-1: ทดลองเขียน Node-red แสดงค่าที่อ่านจาก Modbus TCP/IP ข้อมูล Digital บน Dashboard แบบข้อความ**
+# **LAB1: ทดลองเขียน Node-red แสดงค่าที่อ่านจาก Modbus TCP/IP ข้อมูล Digital บน Dashboard แบบข้อความ**
  จากการทดลองเขียนโปรแกรม node-red อ่านค่า Modbus เราสามารถนำค่าที่อ่านได้ไปแสดงโดยใช้ node dashboard ในการแสดงผลแบบต่าง ๆ ได้ ในที่นี้จะใช้ text node สำหรับใช้ แสดงข้อมูลที่เป็นข้อความ
-1. ทำการสร้างโปรแกรม node-red สำหรับอ่านค่า PLC โดยตั้งค่าตามขั้นตอน [LAB: Node-red read data from PLC via ModbusTCP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-plc-via-modbustcp)
+1. ทำการสร้างโปรแกรม node-red สำหรับอ่านค่า PLC โดยตั้งค่าตามขั้นตอน -> [LAB: Node-red read data from PLC via ModbusTCP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-plc-via-modbustcp)
 
 2. ติดตั้ง modules Dashboard Node-Red 
      - ไปที่ Manage palette >>Install>> search modules >> พิมพ์ “Dashboard >> เลือก node-red-dashboard >> install
@@ -36,10 +36,10 @@
 
 4. ไปที่ edit function node >> On Message แล้วเขียน script ให้ส่งข้อมูล address ที่ 1 ชองข้อมูลที่อ่านได้จาก modbus read ดังนี้
 
-
+```
     var msg1 = { payload: msg.payload[0] };
     return msg1;
-
+```
 
 ![รูปภาพ: Edit function node](https://paper-attachments.dropboxusercontent.com/s_E1F4097AE86D6BC006BA3F68803FE6B26B34FEC61653B412A44A5B3B4028A764_1668757943325_image.png)
 
@@ -55,37 +55,23 @@
 6. หลังจากตั้งค่า node ต่าง ๆ เรียบร้อยแล้วให้ กด “Deploy” 
 7. เปิด แถบ Browser ขึ้นใหม่ แล้ว พิมพ์ ip address node-red ตาม ด้วย port:1880 และ /ui
 
-
+```
     127.0.0.0.1:1880/ui
     or
     localhost:1880/ui
 
+```
 
-## **บันทึกผลการทดลอง**
-
-…
-…
-…
+**บันทึกผลการทดลอง**
 
 
-# **แบบฝึกหัด**
-1. **ทดลองตั้งค่า Modbus read ให้เป็น function code แบบ 04 read/write register เพื่อแสดง**
 
-**ค่า บน Dashboard แบบข้อความ**
+----------
 
+# **LAB2: ทดลองเขียน Node-red แสดงค่าที่อ่านจาก Modbus TCP/IP แสดงข้อมูล Analog บน Dashboard แบบ Chart**
 
-# **LAB5-2: ทดลองเขียน Node-red แสดงค่าที่อ่านจาก Modbus TCP/IP แสดงข้อมูล Analog บน Dashboard แบบ Chart**
-## **วัตถุประสงค์**
-1. เพื่อเรียนรู้วิธีเขียนโปรแกรม Node-red แสดงค่าที่อ่านจาก Modbus TCP/IP บน Dashboard แบบ Chart
-## **อุปกรณ์ประกอบการทดลอง**
-1. คอมพิวเตอร์
-2. PLC
-3. Raspberry Pi
-## **ขั้นตอนการทดลอง**
 จากการทดลองเขียนโปรแกรม node-red อ่านค่า Modbus เราสามารถนำค่าที่อ่านได้ไปแสดงโดยใช้ 
 node dashboard ในการแสดงผลแบบต่าง ๆ ได้ ในที่นี้จะใช้ chart node สำหรับใช้ แสดงข้อมูลเทียบกับเวลา
-
-
 
 ![รูปภาพ: chart node](https://paper-attachments.dropboxusercontent.com/s_E1F4097AE86D6BC006BA3F68803FE6B26B34FEC61653B412A44A5B3B4028A764_1668762063752_image.png)
 
@@ -108,16 +94,24 @@ node dashboard ในการแสดงผลแบบต่าง ๆ ได
 5. คลิ๊ก Done และ Deploy
 6. ที่ไป Browser ui 
 
-
-## **บันทึกผลการทดลอง**
-
-…
-…
-…
+**บันทึกผลการทดลอง**
 
 
+----------
+
+# LAB3: ทดลองเขียน function node แสดงส่งข้อมูล 2 outputs
+
+**ตั้งค่า Chart node ให้แสดง 2 Output บน Chart  เดียวกัน**
+
+
+
+
+**บันทึกผลการทดลอง**
+
+
+----------
 
 # **แบบฝึกหัด**
-1. **ทดลองเขียน function node แสดงส่งข้อมูล 2 outputs** 
-2. **ตั้งค่า Chart node ให้แสดง 2 Output บน Chart  เดียวกัน**
+1. **ทดลองตั้งค่า Modbus read ให้เป็น function code แบบ 04 read/write register เพื่อแสดง**
 
+----------
