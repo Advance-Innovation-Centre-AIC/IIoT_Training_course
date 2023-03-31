@@ -11,7 +11,7 @@
 
 1. ไปที่ Desktop ในคอมพิวเตอร์ และสร้าง folder ชื่อ “datalog” 
 2. สร้าง write file node 
-    - ไปที่แถบซ้ายมือ >> storage >> เลือก write file node
+   - ไปที่แถบซ้ายมือ >> storage >> เลือก write file node
 
 
 ![fig: write file node](https://paper-attachments.dropboxusercontent.com/s_658EA92A6511F4A6D9DBC5C18FA68E122C12026AE7FD8BD469980BE09BFF5730_1668764340477_image.png)
@@ -19,11 +19,14 @@
 
 
 3. ตั้งค่าให้ write file node สร้างไฟล์เก็บไว้ใน folder ที่สร้างขึ้นก่อนหน้า โดย ดับเบิ้ลคลิ๊กที่ node
-    (1). ไปที่ Filename >> เลือก path >> ใส่ path ที่อยู่ของ folder ชื่อ “datalog” 
-        - เพิ่ม “/data_รหัสนิสิต.csv” หลังใส่ path
-    (2). ไปที่ Action >> “append to File” เพื่ออนุญาติให้เขียนข้อมูลต่อจากข้อมูลเดิมถ้ามีอยู่แล้ว
-        - ติ๊กทั้ง 2 ช่อง เพื่อ กำหนดให้ขึ้นบรรทัดใหม่ทุกครั้ง และ ถ้าไม่มี ไฟล์ ชื่อตามที่กำหนดให้สร้างใหม่
-    (3). ไปที่ Name >> ใส่ “write file”  
+
+(1). ไปที่ Filename >> เลือก path >> ใส่ path ที่อยู่ของ folder ชื่อ “datalog” 
+   - เพิ่ม “/data_รหัสนิสิต.csv” หลังใส่ path
+    
+(2). ไปที่ Action >> “append to File” เพื่ออนุญาติให้เขียนข้อมูลต่อจากข้อมูลเดิมถ้ามีอยู่แล้ว
+   - ติ๊กทั้ง 2 ช่อง เพื่อ กำหนดให้ขึ้นบรรทัดใหม่ทุกครั้ง และ ถ้าไม่มี ไฟล์ ชื่อตามที่กำหนดให้สร้างใหม่
+    
+(3). ไปที่ Name >> ใส่ “write file”  
 
 
 ![fig: ตั้งค่า write file node](https://paper-attachments.dropboxusercontent.com/s_A5CBDACDEEDF14937D944AAF6AB4E2B261739094E752D1CB67AF30435F18B81F_1677742590478_Untitled.png)
@@ -39,15 +42,17 @@
 
 
 5. ตั้งค่าให้ inject node เป็นตัวส่ง timestamp ไปยัง payload และทำงานทุกครั้งเมื่อกดที่โหนด โดย ดับเบิ้ลคลิ๊กที่ inject node 
-        (1). ไปที่ ช่องใส่ใต้ Name เลือก เป็น msg.pyload และ เลือก timestamp
-        (2). ตั้งให้ Repeat ตั้งค่าเป็น none
-            - ไปที่ Repeat >> เลือก none 
+
+(1). ไปที่ ช่องใส่ใต้ Name เลือก เป็น msg.pyload และ เลือก timestamp
+        
+(2). ตั้งให้ Repeat ตั้งค่าเป็น none
+   - ไปที่ Repeat >> เลือก none 
     
 ![fig: ตั้งค่า inject node](https://paper-attachments.dropboxusercontent.com/s_A5CBDACDEEDF14937D944AAF6AB4E2B261739094E752D1CB67AF30435F18B81F_1677744974608_Untitled.png)
 
 
 
-5. สร้าง debug node  
+ุุ6. สร้าง debug node  
     - ไปที่แถบซ้ายมือ >> common >> เลือก debug node
 
 
@@ -55,7 +60,7 @@
 
 
 
-6. ตั้งค่าให้แสดงค่า payload ที่เป็นค่า output จาก function node โดยดับเบิ้ลคลิ๊กที่ debug node 
+7. ตั้งค่าให้แสดงค่า payload ที่เป็นค่า output จาก function node โดยดับเบิ้ลคลิ๊กที่ debug node 
     - ไปที่ Output >> ตั้งค่าเป็น msg.payload
     - ไปที่ To >> ตั้งค่า ให้ติ๊กถูก 3 ช่อง
     - ไปที่ Name >> ตั้งค่าเป็น “Debug Create CSV file”
@@ -66,14 +71,14 @@
 
 
 
-7. เชื่อมต่อ node ต่าง ๆ เข้าด้วยกัน โดยเรียงลำดับดังภาพตัวอย่างนี้
+8. เชื่อมต่อ node ต่าง ๆ เข้าด้วยกัน โดยเรียงลำดับดังภาพตัวอย่างนี้
 
 
 ![Fig: Example Create CSV file without header flow-node](https://paper-attachments.dropboxusercontent.com/s_A5CBDACDEEDF14937D944AAF6AB4E2B261739094E752D1CB67AF30435F18B81F_1677745211992_image.png)
 
 
 
-8. คลิ๊กที่ Deploy เพื่อให้ Node-red ทำงานตามโปรแกรมที่ได้ตั้งค่าไว้
+9. คลิ๊กที่ Deploy เพื่อให้ Node-red ทำงานตามโปรแกรมที่ได้ตั้งค่าไว้
 
 **บันทึกผล: ภาพ flow node-red  ของตัวเองทั้งหมด**
  ****
@@ -113,10 +118,12 @@
 
 
 3. ตั้งค่าให้ write file node สร้างไฟล์ตามค่าที่รับ จาก function node ตามข้อความใน msg.filename โดย ดับเบิ้ลคลิ๊กที่ node
-    (1). ไปที่ Filename >> เลือก msg >> ใส่ “filename” 
-    (2). ไปที่ Action >> เลือก “overwrite file” ให้เขียนข้อมูลทับข้อมูลเดิมถ้ามีอยู่แล้ว
-        - ติ๊กทั้ง 2 ช่อง เพื่อ กำหนดให้ขึ้นบรรทัดใหม่ทุกครั้ง และ ถ้าไม่มี ไฟล์ ชื่อตามที่กำหนด ให้สร้างใหม่
-    (3). ไปที่ Name >> ใส่ “write file”  
+(1). ไปที่ Filename >> เลือก msg >> ใส่ “filename” 
+
+(2). ไปที่ Action >> เลือก “overwrite file” ให้เขียนข้อมูลทับข้อมูลเดิมถ้ามีอยู่แล้ว
+   - ติ๊กทั้ง 2 ช่อง เพื่อ กำหนดให้ขึ้นบรรทัดใหม่ทุกครั้ง และ ถ้าไม่มี ไฟล์ ชื่อตามที่กำหนด ให้สร้างใหม่
+    
+(3). ไปที่ Name >> ใส่ “write file”  
 
 
 ![fig: edit write file node](https://paper-attachments.dropboxusercontent.com/s_A5CBDACDEEDF14937D944AAF6AB4E2B261739094E752D1CB67AF30435F18B81F_1677750161913_Untitled.png)
@@ -144,17 +151,17 @@
 6. เขียนโปรแกรมสำหรับรับค่า msg.topic มาเป็นชื่อไฟล์ และ ส่งข้อความ header สำหรับเป็นชื่อหัวตารางของไฟล์ CSV โดยดับเบิ้ลคลิ๊กที่ function node 
     - ไปที่ Properties >>ใส่ code ด้านล่างลงที่ช่อง On Message 
 
-
+`````
     // กำหนดตัวแปร filename โดยรับค่า msg.topic จาก inject node 
     var filename = "D:/data_logger/"+msg.topic+".csv" 
     // กำหนดตัวแปร headers มีค่าเป็นชุดข้อความ 
     var headers = "Date,Time,data1"
     // ส่งข้อมูล Output เป็น ชื่อไฟล์ และ ข้อความ header แบบ json  
     return {filename:filename,payload:headers}
-
+`````
    
   
-  7. เชื่อมต่อ node ต่าง ๆ เข้าด้วยกัน โดยเรียงลำดับดังภาพตัวอย่างนี้
+7. เชื่อมต่อ node ต่าง ๆ เข้าด้วยกัน โดยเรียงลำดับดังภาพตัวอย่างนี้
    
 
 ![fig: Example Create file and add header](https://paper-attachments.dropboxusercontent.com/s_A5CBDACDEEDF14937D944AAF6AB4E2B261739094E752D1CB67AF30435F18B81F_1677750416169_image.png)
@@ -300,8 +307,8 @@
 
 
 
-9. เชื่อมต่อ table node เข้า csv node ของ LAB3 ที่ได้สร้างก่อนหน้านี้
-10. คลิ๊กที่ Deploy เพื่อให้ Node-red ทำงานตามโปรแกรมที่ได้ตั้งค่าไว้
+3. เชื่อมต่อ table node เข้า csv node ของ LAB3 ที่ได้สร้างก่อนหน้านี้
+4. คลิ๊กที่ Deploy เพื่อให้ Node-red ทำงานตามโปรแกรมที่ได้ตั้งค่าไว้
 
 **บันทึกผล: ภาพ flow node-red  ของตัวเองพร้อมผลหน้า debug** 
 
