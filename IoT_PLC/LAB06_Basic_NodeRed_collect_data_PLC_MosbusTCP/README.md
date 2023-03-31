@@ -1,8 +1,6 @@
 # **LAB0 Basic NodeRed collect data PLC MosbusTCP**
-
-[Data Logger คืออะไร](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP/doc/Data_logger.md#data-logger)
-
-[Writing a Function on Node-red](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/doc/Writing_a_Function_on_Node-red.md#writing-a-function-on-node-red)
+เบื้องต้นหลังจากทดลองอ่านค่าข้อมูลจาก PLC ผ่านทาง Modbus ได้แล้ว เราสามารถทดลองเก็บข้อมูลที่อ่านได้ลงไฟล์ csv เพื่อทำ [Data logger](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP/doc/Data_logger.md#data-logger) อย่างง่ายให้กับระบบ 
+โดยสามารถเขียนโปรแกรมตามที่เราต้องการลงใน [Function node](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/doc/Writing_a_Function_on_Node-red.md#writing-a-function-on-node-red) ของ node-red
 
 
 # **Outline**
