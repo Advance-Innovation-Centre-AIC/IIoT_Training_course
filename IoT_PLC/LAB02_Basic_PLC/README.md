@@ -5,9 +5,9 @@
 [วิธีการเขียนโปรแกรม PLC เบื้องต้น](https://drive.google.com/file/d/1XGtkPk0SnKXdOdqEj90YgZ4AXmq33e9B/view?usp=sharing)
 
 # Outline
-1. [LAB1: ทดลองเขียนโปรแกรม PLC รับค่าอินพุตข้อมูลประเภท Digital]()
-2. [LAB2: ทดลองเขียนโปรแกรม PLC รับค่าอินพุตประเภท Analog]()
-3. [LAB3: ทดลองเขียนโปรแกรม PLC สำหรับควบคุมเอาต์พุตประเภท Digital*]()
+1. ส่วน Dobot ในการหยิบจัดวาง
+2. ส่วน PLC ควบคุมการลำเลียงสายพาน
+3. การเริ่มใช้งาน GT Designer3
 
 ## **Objectives**
 1. เพื่อเรียนรู้วิธีการเขียนโปรแกรม PLC แบบ Ladder อ่านค่าอินพุตข้อมูลประเภท Digital และ Analog
@@ -19,4 +19,3 @@
 
 ## **Software**
 1. GXwork3 tool
-2. Modbus slave tool  
