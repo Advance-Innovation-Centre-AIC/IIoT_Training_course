@@ -84,17 +84,17 @@ Master ส่งคำสั่งสำหรับอ่านข้อมู�
 
 2. เขียนโปรแกรม Ledder ตามภาพด้านล่าง ลง PLC 
 
-[ladder_ex](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/15c64790f1e96be5e1fc8a4df1e6c5d4ee33341e/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/picture/ladder_ex.png)
+![ladder_ex](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/15c64790f1e96be5e1fc8a4df1e6c5d4ee33341e/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/picture/ladder_ex.png)
 
 
 3. หลังจาก Run โปรแกรม PLC แล้ว 
    - ไปที่แถบเครื่องมือของโปรแกรม GxWork3 ที่ Online > Monitor > Device/Buffer Memory Batch Monitor 
 
-[image_program_plc](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/15c64790f1e96be5e1fc8a4df1e6c5d4ee33341e/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/picture/image_program_plc.png)
+![image_program_plc](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/15c64790f1e96be5e1fc8a4df1e6c5d4ee33341e/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/picture/image_program_plc.png)
 
 4. Device name > ใส่ X0 กด Enter เราสามารถควบคุม X0 โดยเป็น 0 เป็น 1 ผ่านหน้าต่างนี้ได้เช่นกัน 
 
-[plc_control](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/15c64790f1e96be5e1fc8a4df1e6c5d4ee33341e/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/picture/plc_control.png)
+![plc_control](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/15c64790f1e96be5e1fc8a4df1e6c5d4ee33341e/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/picture/plc_control.png)
 
 
 ## **Setup ModbusTCP in Node-red (Master)**
