@@ -70,7 +70,7 @@
 
 ----------
 
-# LAB2: LAB1: Use Chart node in Node-red Display data Modbus TCP/IP
+# LAB2: Use Chart node in Node-red Display data Modbus TCP/IP
 
 จากการทดลองเขียนโปรแกรม node-red อ่านค่า Modbus เราสามารถนำค่าที่อ่านได้ไปแสดงโดยใช้ 
 node dashboard ในการแสดงผลแบบต่าง ๆ ได้ ในที่นี้จะใช้ chart node สำหรับใช้ แสดงข้อมูลเทียบกับเวลา
