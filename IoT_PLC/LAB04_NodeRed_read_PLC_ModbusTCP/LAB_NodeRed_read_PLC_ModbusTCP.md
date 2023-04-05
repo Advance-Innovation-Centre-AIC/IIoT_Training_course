@@ -1,11 +1,10 @@
 # **Outline**
-- [Setup Modbus slave tool (Slave)](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-modbustcp-slave-tool)
-- [Setup ModbusTCP in Node-red (Master)](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-plc-via-modbustcp)
+- [LAB: Node-red read data from ModbusTCP Slave tool](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-modbustcp-slave-tool)
+- [LAB: Node-red read data from PLC via ModbusTCP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#lab-node-red-read-data-from-plc-via-modbustcp)
 
 # **LAB: Node-red read data from ModbusTCP Slave tool**
 ในการทดลองนี้เรากำหนดให้ค่า slave device มีการตั้งค่าให้ส่งข้อมูล ผ่าน Modbus protocol ดังนี้
 Master ส่งคำสั่งสำหรับอ่านข้อมูลประเภท coil จาก slave ที่ ID เท่ากับ 1 และ ip address 127.0.0.1 port 502
-
 
 ## **Setup Modbus slave tool (Slave)**
 กำหนดให้ slave ดังนี้
@@ -81,22 +80,30 @@ Master ส่งคำสั่งสำหรับอ่านข้อมู�
 หลังจากทดลองเขียนโปรแกรม Node-red สื่อสารด้วย ModbusTCP กับโปรแกรม Simmulator จำลองเป็น Slave ได้แล้ว เราสามารถใช้โปรแกรม Node-red นี้ไป
 
 ## **Setup PLC ModbusTCP (Slave)**
-1. ตั้งค่า PLC ใช้งาน Modbus TCP/IP Protocol ตามขั้นตอน > [link](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB03_Raspi_connect_PLC_ModbusTCP/Lab03_RasberryPi_connect_PLC_ModbusTCP.md#%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2-plc-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-modbus-tcpip-protocol)
+1. ตั้งค่า PLC ใช้งาน Modbus TCP/IP Protocol ตามขั้นตอน > [ตั้งค่า PLC ใช้งาน Modbus TCP/IP Protocol](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB03_Raspi_connect_PLC_ModbusTCP/Lab03_RasberryPi_connect_PLC_ModbusTCP.md#%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2-plc-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-modbus-tcpip-protocol)
 
-2. เขียนโปรแกรม Ledder ...
-ทดลองใช้ โปรแกรม Node-red ที่เขียนก่อนหน้า อ่านค่า PLC function code แบบ 01 read coil  ผ่าน Modbus TCP/IP*
+2. เขียนโปรแกรม Ledder ตามภาพด้านล่าง ลง PLC 
 
-.....???......
+[ladder_ex]()
+
+
+3. หลังจาก Run โปรแกรม PLC แล้ว 
+   - ไปที่แถบเครื่องมือของโปรแกรม GxWork3 ที่ Online > Monitor > Device/Buffer Memory Batch Monitor 
+
+[image_program_plc]()
+
+4. Device name > ใส่ X0 กด Enter เราสามารถควบคุม X0 โดยเป็น 0 เป็น 1 ผ่านหน้าต่างนี้ได้เช่นกัน 
+
+[plc_control]()
+
 
 ## **Setup ModbusTCP in Node-red (Master)**
-สามารถทดลองโดยการเขียนโปรแกรม Node-red ขั้นตอนแบบเดียวกันกับการทดลองก่อนหน้านี้->[link](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#setup-modbustcp-in-node-red-master)
+สามารถทดลองโดยการเขียนโปรแกรม Node-red ขั้นตอนแบบเดียวกันกับการทดลองก่อนหน้านี้->[link](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB04_NodeRed_read_PLC_ModbusTCP/LAB_NodeRed_read_PLC_ModbusTCP.md#setup-modbustcp-in-node-red-master) ทดลอง ควบคุม X0 และสังเกต การเปลี่ยนแปลงที่หน้าต่าง Device/Buffer Memory Batch Monitor ของโปรแกรม Gxwork3 
+
+**บันทึกผลการทดลอง**
 
 
-----------
 
-
-# **แบบฝึกหัด**
-1. **ทดลองเขียน Node-red อ่านค่าผ่าน Modbus TCP/IP แบบ function code 3**
 
 
 
