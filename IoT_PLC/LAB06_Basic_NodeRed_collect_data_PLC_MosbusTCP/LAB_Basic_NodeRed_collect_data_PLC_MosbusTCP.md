@@ -1,5 +1,5 @@
 # Outline
-- LAB1: ทดลองเขียน node-red  เก็บข้อมูลที่ได้จาก modbus TCP/IP ลงไฟล์ .csv ไฟล์
+- [LAB1: ทดลองเขียน node-red  เก็บข้อมูลที่ได้จาก modbus TCP/IP ลงไฟล์ .csv ไฟล์](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB06_Basic_NodeRed_collect_data_PLC_MosbusTCP/LAB_Basic_NodeRed_collect_data_PLC_MosbusTCP.md#lab1-%E0%B8%97%E0%B8%94%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-node-red--%E0%B9%80%E0%B8%81%E0%B9%87%E0%B8%9A%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%88%E0%B8%B2%E0%B8%81-modbus-tcpip-%E0%B8%A5%E0%B8%87%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C-csv-%E0%B9%84%E0%B8%9F%E0%B8%A5%E0%B9%8C)
 
 
 # **LAB1: ทดลองเขียน node-red  เก็บข้อมูลที่ได้จาก modbus TCP/IP ลงไฟล์ .csv ไฟล์**
@@ -42,10 +42,9 @@
 
 ## **บันทึกผลการทดลอง**
 
-…
-…
-…
 
+
+----------
 
 # **แบบฝึกหัด**
 1. **ทดลองเขียน funcion node  ให้เก็บ มี timestamp พร้อมกับ ข้อมูลที่ได้จาก modbus TCP/IP  ลงไฟล์ csv** 
