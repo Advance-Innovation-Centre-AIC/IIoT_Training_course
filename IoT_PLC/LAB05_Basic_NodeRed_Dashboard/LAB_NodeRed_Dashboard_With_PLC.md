@@ -1,7 +1,7 @@
 # Outline
 - [LAB1: Use Text node in Node-red Display data Modbus TCP/IP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_NodeRed_Dashboard_With_PLC.md#lab1-use-text-node-in-node-red-display-data-modbus-tcpip-)
 - [LAB2:Use Chart node in Node-red Display data Modbus TCP/IP](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_NodeRed_Dashboard_With_PLC.md#lab2-lab1-use-chart-node-in-node-red-display-data-modbus-tcpip)
-- [LAB3: Use function node Display 2 outputs on Chart ](https://github.com/Advance-Innovation-Centre-AIC/IIoT_Training_course/blob/main/IoT_PLC/LAB05_Basic_NodeRed_Dashboard/LAB_NodeRed_Dashboard_With_PLC.md#lab3-use-function-node-display-2-outputs-on-chart)
+
 
 
 # LAB1: Use Text node in Node-red Display data Modbus TCP/IP
@@ -92,23 +92,11 @@ node dashboard ในการแสดงผลแบบต่าง ๆ ได
 ![รูปภาพ: edit chart node](https://paper-attachments.dropboxusercontent.com/s_E1F4097AE86D6BC006BA3F68803FE6B26B34FEC61653B412A44A5B3B4028A764_1668762403927_image.png)
 
 
-
 5. คลิ๊ก Done และ Deploy
 6. ที่ไป Browser ui 
 
 **บันทึกผลการทดลอง**
 
-
-----------
-
-# LAB3: Use function node Display 2 outputs on Chart 
-
-
-?????
-
-
-
-**บันทึกผลการทดลอง**
 
 
 ----------
