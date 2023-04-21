@@ -8,7 +8,7 @@
 
 
 # **Step1: ติดตั้งโปรแกรม GXWork3**
-1. Download Gxwork3 >> [link](https://drive.google.com/file/d/1olgX69E1S-ZEzhd0WcJog4AseTfC6inn/view?usp=share_link)
+1. Download Gxwork3 >> CD program GxWork3 ของ AIC 
 2. เข้าไปที่ โฟเดอร์ Disk1 
 3. คลิ๊กไฟล์  setup.exe
 
